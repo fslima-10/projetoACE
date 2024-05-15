@@ -1,0 +1,135 @@
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\gen\Aplicacao_REST.msgflow.
+Successfully added file Aplicacao_REST\gen\Aplicacao_REST.msgflow to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\Json_Para_XML.msgflow.
+Successfully added file Aplicacao_REST\Json_Para_XML.msgflow to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\Filter.esql.
+Successfully added file Aplicacao_REST\Filter.esql to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\Json_Para_XML_Compute.esql.
+Dependent ESQL file Json_Para_XML_Json_Para_XM.esql is added to the BAR file.
+
+Successfully added file Aplicacao_REST\Json_Para_XML_Compute.esql to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\Json_Para_XML_Json_Para_XM.esql.
+Successfully added file Aplicacao_REST\Json_Para_XML_Json_Para_XM.esql to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\consultaLicenciamento.subflow.
+Successfully added file Aplicacao_REST\consultaLicenciamento.subflow to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\consultaTransferencia.subflow.
+Successfully added file Aplicacao_REST\consultaTransferencia.subflow to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\openapi.json.
+Successfully added file Aplicacao_REST\openapi.json to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file Aplicacao_REST\openapi.json to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\restapi.descriptor.
+Successfully added file Aplicacao_REST\restapi.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file Aplicacao_REST\restapi.descriptor to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file Aplicacao_REST\restapi.descriptor.
+Successfully added file Aplicacao_REST\restapi.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file Aplicacao_REST\restapi.descriptor to BAR file.
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file consultaDebitosOnline.
+Library file consultaDebitosOnline.libzip successfully added to the BAR.
+Library compiled contents:
+    
+    Processing file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline.subflow.
+    Successfully added file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline.subflow to BAR file.
+    
+    
+    Processing file consultaDebitosOnline\library.descriptor.
+    Successfully added file consultaDebitosOnline\library.descriptor to BAR file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file consultaDebitosOnline\library.descriptor to BAR file.
+    
+    
+    Processing file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline_Compute.esql.
+    Successfully added file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline_Compute.esql to BAR file.
+    
+    
+    Processing file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline_Filter.esql.
+    Successfully added file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline_Filter.esql to BAR file.
+    
+
+Elapsed time: 0,015 second(s).
+
+==============================================
+
+!Mon May 13 18:28:40 BRT 2024
+
+Processing file static.
+Library file static.libzip successfully added to the BAR.
+Library compiled contents:
+    
+    Processing file static\static\teste.subflow.
+    Successfully added file static\static\teste.subflow to BAR file.
+    
+    
+    Processing file static\library.descriptor.
+    Successfully added file static\library.descriptor to BAR file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file static\library.descriptor to BAR file.
+    
+    
+    Processing file static\static\teste_Compute.esql.
+    Successfully added file static\static\teste_Compute.esql to BAR file.
+    
+
+Elapsed time: 0,016 second(s).

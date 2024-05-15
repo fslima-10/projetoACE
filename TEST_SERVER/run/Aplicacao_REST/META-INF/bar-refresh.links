@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1715625309144" workspaceResource="/Aplicacao_REST/Filter.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aplicacao_REST\Filter.esql.&#xA;Successfully added file Aplicacao_REST\Filter.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Filter.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715635685798" workspaceResource="/Aplicacao_REST/Json_Para_XML.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aplicacao_REST\Json_Para_XML.msgflow.&#xA;Successfully added file Aplicacao_REST\Json_Para_XML.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Json_Para_XML.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715635049566" workspaceResource="/Aplicacao_REST/Json_Para_XML_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aplicacao_REST\Json_Para_XML_Compute.esql.&#xA;Dependent ESQL file Json_Para_XML_Json_Para_XM.esql is added to the BAR file.&#xA;&#xA;Successfully added file Aplicacao_REST\Json_Para_XML_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Json_Para_XML_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715635720563" workspaceResource="/Aplicacao_REST/Json_Para_XML_Json_Para_XM.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aplicacao_REST\Json_Para_XML_Json_Para_XM.esql.&#xA;Successfully added file Aplicacao_REST\Json_Para_XML_Json_Para_XM.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Json_Para_XML_Json_Para_XM.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715630815986" workspaceResource="/Aplicacao_REST/consultaLicenciamento.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aplicacao_REST\consultaLicenciamento.subflow.&#xA;Successfully added file Aplicacao_REST\consultaLicenciamento.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="consultaLicenciamento.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715619314512" workspaceResource="/Aplicacao_REST/consultaTransferencia.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aplicacao_REST\consultaTransferencia.subflow.&#xA;Successfully added file Aplicacao_REST\consultaTransferencia.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="consultaTransferencia.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715608716915" workspaceResource="/Aplicacao_REST/gen/Aplicacao_REST.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aplicacao_REST\gen\Aplicacao_REST.msgflow.&#xA;Successfully added file Aplicacao_REST\gen\Aplicacao_REST.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen\Aplicacao_REST.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715608716713" workspaceResource="/Aplicacao_REST/openapi.json">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aplicacao_REST\openapi.json.&#xA;Successfully added file Aplicacao_REST\openapi.json to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file Aplicacao_REST\openapi.json to BAR file.&#xA;" severity="0"/>
+      <barEntry name="openapi.json"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715608716892" workspaceResource="/Aplicacao_REST/restapi.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aplicacao_REST\restapi.descriptor.&#xA;Successfully added file Aplicacao_REST\restapi.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file Aplicacao_REST\restapi.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="restapi.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715618971805" workspaceResource="/consultaDebitosOnline/.project">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file consultaDebitosOnline.&#xA;Library file consultaDebitosOnline.libzip successfully added to the BAR.&#xA;Library compiled contents:&#xA;    &#xA;    Processing file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline.subflow.&#xA;    Successfully added file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline.subflow to BAR file.&#xA;    &#xA;    &#xA;    Processing file consultaDebitosOnline\library.descriptor.&#xA;    Successfully added file consultaDebitosOnline\library.descriptor to BAR file.&#xA;    Elapsed time: 0 second(s).&#xA;    &#xA;    Successfully added file consultaDebitosOnline\library.descriptor to BAR file.&#xA;    &#xA;    &#xA;    Processing file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline_Compute.esql.&#xA;    Successfully added file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline_Compute.esql to BAR file.&#xA;    &#xA;    &#xA;    Processing file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline_Filter.esql.&#xA;    Successfully added file consultaDebitosOnline\consultaDebitosOnline\consultaDebitosOnline_Filter.esql to BAR file.&#xA;    &#xA;&#xA;Elapsed time: 0,015 second(s).&#xA;" severity="0"/>
+      <barEntry name="consultaDebitosOnline.libzip"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1715619624266" workspaceResource="/static/.project">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file static.&#xA;Library file static.libzip successfully added to the BAR.&#xA;Library compiled contents:&#xA;    &#xA;    Processing file static\static\teste.subflow.&#xA;    Successfully added file static\static\teste.subflow to BAR file.&#xA;    &#xA;    &#xA;    Processing file static\library.descriptor.&#xA;    Successfully added file static\library.descriptor to BAR file.&#xA;    Elapsed time: 0 second(s).&#xA;    &#xA;    Successfully added file static\library.descriptor to BAR file.&#xA;    &#xA;    &#xA;    Processing file static\static\teste_Compute.esql.&#xA;    Successfully added file static\static\teste_Compute.esql to BAR file.&#xA;    &#xA;&#xA;Elapsed time: 0,016 second(s).&#xA;" severity="0"/>
+      <barEntry name="static.libzip"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

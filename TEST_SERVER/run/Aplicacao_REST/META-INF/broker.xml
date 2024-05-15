@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="consultaLicenciamento" type="subflow" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="gen.Aplicacao_REST" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+    <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Input.URLSpecifier" override="/aplicacao_rest/v1*">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Input.faultFormat" override="JSON">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#additionalInstances" override="3">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.Aplicacao_REST#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="consultaTransferencia" type="subflow" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="Json_Para_XML" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+    <ConfigurableProperty uri="Json_Para_XML#HTTP Input.URLSpecifier" override="/jsonparaxml">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#Json_Para_XM.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#Json_Para_XM.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#Json_Para_XM.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#VAR_EXTERNA" override="VALOR_MODO_GRAFICO">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Json_Para_XML#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

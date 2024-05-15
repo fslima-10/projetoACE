@@ -1,0 +1,30 @@
+2024-05-15 18:15:42.969180Z: [Thread 14932] (Msg 1/1) BIP1990I: Servidor de integração 'TEST_SERVER' iniciando a inicialização; versão '12.0.9.0' (64 bits) 
+2024-05-15 18:15:43.077976Z: [Thread 14932] (Msg 1/1) BIP9905I: Inicializando gerenciadores de recursos. 
+2024-05-15 18:16:19.502240Z: [Thread 14932] (Msg 1/1) BIP9906I: Lendo recursos implementados. 
+2024-05-15 18:16:19.515054Z: [Thread 14932] (Msg 1/1) BIP9907I: Inicializando recursos implementados. 
+2024-05-15 18:16:19.525246Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-05-15 18:16:19.526336Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-05-15 18:16:19.526682Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-05-15 18:16:33.025872Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-05-15 18:16:33.116458Z: [Thread 14932] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7800' para as conexões 'http'. 
+2024-05-15 18:16:33.116546Z: [Thread 14932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/jsonparaxml'. 
+2024-05-15 18:16:33.117020Z: [Thread 14932] (Msg 1/1) BIP2269I: Recurso implementado 'Json_Para_XML' (uuid='Json_Para_XML',tipo='MessageFlow') iniciado com êxito. 
+2024-05-15 18:16:33.117618Z: [Thread 14932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aplicacao_rest/v1*'. 
+2024-05-15 18:16:33.117996Z: [Thread 14932] (Msg 1/1) BIP2269I: Recurso implementado 'gen.Aplicacao_REST' (uuid='gen.Aplicacao_REST',tipo='MessageFlow') iniciado com êxito. 
+2024-05-15 18:16:33.118130Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-05-15 18:16:33.118298Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-05-15 18:16:33.118408Z: [Thread 14932] (Msg 1/1) BIP9332I: RestAPI 'Aplicacao_REST' foi reloaded com êxito. 
+2024-05-15 18:16:33.199844Z: [Thread 9904] (Msg 1/1) BIP2866I: A segurança de administração IBM App Connect Enterprise é inactive. 
+2024-05-15 18:16:33.459630Z: [Thread 9904] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7600' para as conexões 'RestAdmin http'. 
+2024-05-15 18:16:33.460002Z: [Thread 14932] (Msg 1/1) BIP1991I: O servidor de integração concluiu a inicialização. 
+2024-05-15 18:20:26.286112Z: [Thread 14932] (Msg 1/1) BIP1989I: O Integration Server está finalizando devido a um evento de encerramento. 
+2024-05-15 18:20:26.287452Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-05-15 18:20:26.287732Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-05-15 18:20:26.287814Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-05-15 18:20:27.518472Z: [Thread 14932] (Msg 1/1) BIP2271I: Recurso implementado 'Json_Para_XML' (uuid='Json_Para_XML',tipo='MessageFlow') interrompido com êxito. 
+2024-05-15 18:20:29.335420Z: [Thread 14932] (Msg 1/1) BIP2271I: Recurso implementado 'gen.Aplicacao_REST' (uuid='gen.Aplicacao_REST',tipo='MessageFlow') interrompido com êxito. 
+2024-05-15 18:20:30.233468Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-05-15 18:20:30.279532Z: [Thread 14932] (Msg 1/1) BIP3133I: O Listener HTTP parou o listening na porta '7800' para as conexões 'http'. 
+2024-05-15 18:20:30.358496Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-05-15 18:20:30.358604Z: [Thread 14932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-05-15 18:20:36.576944Z: [Thread 14932] (Msg 1/1) BIP1992I: O servidor de integração 'TEST_SERVER' foi interrompido. 

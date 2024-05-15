@@ -1,0 +1,10 @@
+BROKER SCHEMA consultaDebitosOnline
+
+
+CREATE FILTER MODULE consultaDebitosOnline_Filter
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		RETURN TRUE;
+	END;
+
+END MODULE;

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+  <CompiledMessageFlow name="consultaDebitosOnline.consultaDebitosOnline" type="subflow" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+    <ConfigurableProperty uri="consultaDebitosOnline.consultaDebitosOnline#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="consultaDebitosOnline.consultaDebitosOnline#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="consultaDebitosOnline.consultaDebitosOnline#Compute.validateMaster">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

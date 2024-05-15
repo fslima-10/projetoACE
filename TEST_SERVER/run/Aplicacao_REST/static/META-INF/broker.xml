@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+  <CompiledMessageFlow name="static.teste" type="subflow" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+    <ConfigurableProperty uri="static.teste#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="static.teste#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="static.teste#Compute.validateMaster">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

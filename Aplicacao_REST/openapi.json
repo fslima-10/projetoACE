@@ -1,0 +1,1 @@
+{ "openapi": "3.0.0", "info": { "title": "Aplicacao_REST", "version": "1.0.0", "description": "Aplicacao_REST" }, "servers": [ { "url": "/aplicacao_rest/v1" } ] }
