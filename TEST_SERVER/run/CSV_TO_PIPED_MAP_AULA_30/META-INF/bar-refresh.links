@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1716388528298" workspaceResource="/CSV_TO_PIPED_MAP_AULA_30/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CSV_TO_PIPED_MAP_AULA_30\application.descriptor.&#xA;Successfully added file CSV_TO_PIPED_MAP_AULA_30\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file CSV_TO_PIPED_MAP_AULA_30\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716571066885" workspaceResource="/CSV_TO_PIPED_MAP_AULA_30/br/com/csv/to/piped/computer/CSV_TO_PIPED_COMPUTER.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CSV_TO_PIPED_MAP_AULA_30\br\com\csv\to\piped\computer\CSV_TO_PIPED_COMPUTER.msgflow.&#xA;Successfully added file CSV_TO_PIPED_MAP_AULA_30\br\com\csv\to\piped\computer\CSV_TO_PIPED_COMPUTER.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\csv\to\piped\computer\CSV_TO_PIPED_COMPUTER.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716404137733" workspaceResource="/CSV_TO_PIPED_MAP_AULA_30/br/com/csv/to/piped/computer/CSV_TO_PIPED_COMPUTER_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CSV_TO_PIPED_MAP_AULA_30\br\com\csv\to\piped\computer\CSV_TO_PIPED_COMPUTER_Compute.esql.&#xA;Successfully added file CSV_TO_PIPED_MAP_AULA_30\br\com\csv\to\piped\computer\CSV_TO_PIPED_COMPUTER_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\csv\to\piped\computer\CSV_TO_PIPED_COMPUTER_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716389472402" workspaceResource="/CSV_TO_PIPED_MAP_AULA_30/br/com/csv/to/piped/map/CSV_TO_PIPED_MAP.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CSV_TO_PIPED_MAP_AULA_30\br\com\csv\to\piped\map\CSV_TO_PIPED_MAP.msgflow.&#xA;Successfully added file CSV_TO_PIPED_MAP_AULA_30\br\com\csv\to\piped\map\CSV_TO_PIPED_MAP.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\csv\to\piped\map\CSV_TO_PIPED_MAP.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716390545567" workspaceResource="/CSV_TO_PIPED_MAP_AULA_30/br/com/csv/to/piped/map/CSV_TO_PIPED_MAP_Mapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CSV_TO_PIPED_MAP_AULA_30\br\com\csv\to\piped\map\CSV_TO_PIPED_MAP_Mapping.map.&#xA;Successfully added file CSV_TO_PIPED_MAP_AULA_30\br\com\csv\to\piped\map\CSV_TO_PIPED_MAP_Mapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br/com/csv/to/piped/map/CSV_TO_PIPED_MAP_Mapping.map"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

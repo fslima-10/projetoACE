@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\JSON_to_CSVproject.generated.bar" deployTimestamp="2024-05-26 18:26:44">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.json.csv.JSON_to_CSV" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\JSON_to_CSVproject.generated.bar" deployTimestamp="2024-05-26 18:26:44">
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#HTTP Input.URLSpecifier" override="/json_to_csv">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.json.csv.JSON_to_CSV#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

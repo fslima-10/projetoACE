@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\XML_TO_JSON_JAVAproject.generated.bar" deployTimestamp="2024-05-28 14:16:27">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.xml.to.json.java.XML_TO_JSON_JAVA" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\XML_TO_JSON_JAVAproject.generated.bar" deployTimestamp="2024-05-28 14:16:27">
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#HTTP Input.URLSpecifier" override="/xml_to_json_java">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#Java Compute.javaClassLoader">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#Java Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.java.XML_TO_JSON_JAVA#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

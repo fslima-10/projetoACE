@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\CSV_TO_PIPED_MAP_AULA_30project.generated.bar" deployTimestamp="2024-05-24 17:20:26">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\CSV_TO_PIPED_MAP_AULA_30project.generated.bar" deployTimestamp="2024-05-24 17:20:26">
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#HTTP Input.URLSpecifier" override="/csvtopipedmap">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.map.CSV_TO_PIPED_MAP#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\CSV_TO_PIPED_MAP_AULA_30project.generated.bar" deployTimestamp="2024-05-24 17:20:26">
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Input.URLSpecifier" override="/csvtopipedcomputer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.URLSpecifier" override="http://localhost:7800/jsonparaxml">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.acceptCompressedResponses">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.enableKeepAlive">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.httpVersion" override="1.1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.protocol" override="TLS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.timeoutForServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#HTTP Request.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

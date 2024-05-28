@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="br.com.csv.to.piped.map" version="8.0.5.0" xmlns:map="br.com.csv.to.piped.map">
+    <input path="mbsharedlib://CSV_AULA30_CSV_TO_PIPED/BillDetails.xsd"/>
+    <output path="mbsharedlib://CSV_AULA30_CSV_TO_PIPED/BillDetails_Piped.xsd"/>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="CSV_TO_PIPED_MAP_Mapping">
+        <input path="mb:msg(BillDetailsData,assembly,DFDL,Properties)" var="ComIbmMessageAssembly_BillDetailsData"/>
+        <output path="mb:msg(BillDetails_PipedData,assembly,DFDL,Properties)" var="ComIbmMessageAssembly_BillDetails_PipedData"/>
+        <move>
+            <input path="$ComIbmMessageAssembly_BillDetailsData/Properties"/>
+            <output path="$ComIbmMessageAssembly_BillDetails_PipedData/Properties"/>
+            <override>
+                <assign value="{CSV_AULA30_CSV_TO_PIPED}">
+                    <output path="$ComIbmMessageAssembly_BillDetails_PipedData/Properties/MessageSet"/>
+                </assign>
+                <assign value="{}:BillDetails_PipedData">
+                    <output path="$ComIbmMessageAssembly_BillDetails_PipedData/Properties/MessageType"/>
+                </assign>
+            </override>
+        </move>
+        <foreach>
+            <input path="$ComIbmMessageAssembly_BillDetailsData/BillDetailsData/record"/>
+            <output path="$ComIbmMessageAssembly_BillDetails_PipedData/BillDetails_PipedData/record"/>
+            <move>
+                <input path="BillNumber"/>
+                <output path="BillNumber"/>
+            </move>
+            <move>
+                <input path="BillDate"/>
+                <output path="BillDate"/>
+            </move>
+            <move>
+                <input path="CashierName"/>
+                <output path="CashierName"/>
+            </move>
+            <move>
+                <input path="CustomerName"/>
+                <output path="CustomerName"/>
+            </move>
+            <move>
+                <input path="Customer_Phone"/>
+                <output path="Customer_Phone"/>
+            </move>
+            <move>
+                <input path="Total_purchases"/>
+                <output path="Total_purchases"/>
+            </move>
+        </foreach>
+        <move>
+            <input path="$ComIbmMessageAssembly_BillDetailsData/BillDetailsData/header/BillNumber"/>
+            <output path="$ComIbmMessageAssembly_BillDetails_PipedData/BillDetails_PipedData/header/BillNumber"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_BillDetailsData/BillDetailsData/header/BillDate"/>
+            <output path="$ComIbmMessageAssembly_BillDetails_PipedData/BillDetails_PipedData/header/BillDate"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_BillDetailsData/BillDetailsData/header/CashierName"/>
+            <output path="$ComIbmMessageAssembly_BillDetails_PipedData/BillDetails_PipedData/header/CashierName"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_BillDetailsData/BillDetailsData/header/CustomerName"/>
+            <output path="$ComIbmMessageAssembly_BillDetails_PipedData/BillDetails_PipedData/header/CustomerName"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_BillDetailsData/BillDetailsData/header/Customer_Phone"/>
+            <output path="$ComIbmMessageAssembly_BillDetails_PipedData/BillDetails_PipedData/header/Customer_Phone"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_BillDetailsData/BillDetailsData/header/Total_purchases"/>
+            <output path="$ComIbmMessageAssembly_BillDetails_PipedData/BillDetails_PipedData/header/Total_purchases"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

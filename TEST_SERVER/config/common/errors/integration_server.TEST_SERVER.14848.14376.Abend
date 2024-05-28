@@ -1,0 +1,188 @@
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+| First Failure Symptom Report                                                |
+|   ========================                                                  |
+|                                                                             |
+| Proc start time (GMT) :- Wed May 22 12:57:04 2024                           |
+|                                                                             |
+|   Product Details                                                           |
+|   +++++++++++++++                                                           |
+|                                                                             |
+| Vendor                :- IBM                                                |
+| Product Name          :- IBM App Connect Enterprise                         |
+| Program ID            :- 5724-J05                                           |
+| Version               :- 12090                                              |
+|                                                                             |
+|   OS Information                                                            |
+|   ++++++++++++++                                                            |
+|                                                                             |
+| Operating System      :- Windows 10 Enterprise                              |
+| Node Name             :- SPOPCBT029690                                      |
+| No of Processors      :- 8                                                  |
+| Processor Type        :- Intel64 Family 6 Model 94 Stepping 3               |
+| Current Type          :- Multiprocessor Free                                |
+| Dbghelp version       :- 4.0.5.0                                            |
+|                                                                             |
+|   Environment                                                               |
+|   +++++++++++                                                               |
+|                                                                             |
+| Installation Path     :- C:\Program Files\IBM\ACE\12.0.9.0\server           |
+| Service User ID       :- fslima                                             |
+| Work Path             :-                                                    |
+|   C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\TEST_SERVER\config                     |
+| Executable Name       :- IntegrationServer.exe                              |
+| Process ID            :- 14848                                              |
+|                                                                             |
+|   Deployment                                                                |
+|   ++++++++++                                                                |
+|                                                                             |
+| Component Name        :- integration_server                                 |
+| Execution Group       :- TEST_SERVER                                        |
+| EG UUID               :- 00000000-0000-0000-0000-000000000000               |
+| User trace            :- 0                                                  |
+| Service trace         :- 0                                                  |
+| Trace size            :- 0                                                  |
+| Server State          :- tearing down                                       |
+| Processing Admin Mess :- no                                                 |
+|                                                                             |
+|   Build Information                                                         |
+|   +++++++++++++++++                                                         |
+|                                                                             |
+| Sandbox               :- C:/ci/product-build/WMB                            |
+| Code Level            :- S000-L230629.12545                                 |
+| Build type            :- Production                                         |
+| Build context         :- amd64_nt_4                                         |
+| 64 Bit Build          :- yes                                                |
+|                                                                             |
+|   Failure Location                                                          |
+|   ++++++++++++++++                                                          |
+|                                                                             |
+| Time of Report (GMT)  :- Wed May 22 13:10:06 2024                           |
+| Message Flow          :- br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER |
+| Thread ID             :- 0x00003828                                         |
+|                                                                             |
++-----------------------------------------------------------------------------+
+                                                                               
+Abend Record for PID: 14848 TID: 0x3828 on: Wed May 22 13:10:06 2024
+
+---> Location <---
+File: C:\ci\product-build\WMB\src\CommonServices\Win32\ImbAbend.cpp
+Line: 3235
+Function: ImbAbend::newHandler
+AbendAction: 16
+
+---> Inserts <---
+Failed to allocate memory
+8224
+
+---> Last Errors <---
+Note these error codes are not necessarily reliable
+GetLastError() returned: 8
+errno          returned: 0
+
+
+---> Process Status <---
+Memory:
+Usage Load: 96 percent
+Total Physical Memory: 33478412 Kbytes
+Available Physical Memory: 1067192 Kbytes
+Total PageFile: 134141708 Kbytes
+Available PageFile: 0 Kbytes
+Total Virtual Memory: 137438953344 Kbytes
+Available Virtual Memory: 137286783412 Kbytes
+Available Extended Memory: 0 free Kbytes
+
+Working Set:
+Min: 200 Kbytes
+Max: 1380 Kbytes
+
+Timings:
+Creation Time: D-22 M-5 Y-2024 : 15:57:0.352
+Kernel Time: 105281 ms
+User Time: 371156 ms
+
+---> Process Environment Variables <---
+
+Internal Abend Error: Could not process Environment Variables. Error Code: 8
+
+---> Stack dump for the current thread (0x3828), with malloc allowed. <---
+Registers:
+RAX=0x00007FFAE2B70000 RBX=0x0000000000000003 RCX=0x0002B9140051C000 RDX=0x0000000000000000
+RSP=0x0000002476AF66D0 RBP=0x0000000000000036 RSI=0x0000000000000000 RDI=0x0000000000000000
+ R8=0x0000000000000000  R9=0x0000000000000000 R10=0x0000000000000000 R11=0x0000000000000000
+R12=0x00007FFAE3057910 R13=0x00007FFAE30558F0 R14=0x0000000000000000 R15=0x0000000000000CA3
+RIP=0x00007FFB4E9F4B59
+EFlags=0x00000202
+CS=0x0033 DS=0x002B ES=0x002B FS=0x0053 GS=0x002B SS=0x002B
+
+ Internal Abend Warning: Unable to initialize the symbol engine. All stack frames in the following backtrace (if any) should be treated with extreme caution.  Error Code: 8
+
+Stack Backtrace:
+ # ChildRBP         RetAddr           Param#1          Param#2          Param#3          Param#4           Fn-Loc'n         : Module!Function+Offset [File Name # Line+Offset @ Address]
+00 0000002476AF66C8 00007FFAE2F3D608 (0000000000000003 0000000000000000 0000000000000400 000000004953514D) 00007FFB4E9F4B59 : ***StackWalk Warning: Module does not appear to exist. Following frames may be wrong. Error Code: 6 *** <Unknown:6><No Symbol Found>, Error Code: 6 <NLN:6>
+01 0000002476AF66D0 0000000000000003 (0000000000000000 0000000000000400 000000004953514D 0000000000000000) 00007FFAE2F3D608 : ***StackWalk Warning: Module does not appear to exist. Following frames may be wrong. Error Code: 6 *** <Unknown:6><No Symbol Found>, Error Code: 6 <NLN:6>
+02 0000002476AF66D8 0000000000000000 (0000000000000400 000000004953514D 0000000000000000 00007FFB4E9F4B59) 0000000000000003 : ***StackWalk Warning: Module does not appear to exist. Following frames may be wrong. Error Code: 6 *** <Unknown:6><No Symbol Found>, Error Code: 6 <NLN:6>
+
+---> Raw stack dump <---
+RSP             : 00 01 02 03-04 05 06 07-08 09 0A 0B-0C 0D 0E 0F      ASCII             00       04       08       0C               00               08
+0000002476AF66D0: 08 d6 f3 e2-fa 7f 00 00-03 00 00 00-00 00 00 00 .Öóâú........... e2f3d608 00007ffa 00000003 00000000 00007ffae2f3d608 0000000000000003
+0000002476AF66E0: 00 00 00 00-00 00 00 00-00 04 00 00-00 00 00 00 ................ 00000000 00000000 00000400 00000000 0000000000000000 0000000000000400
+0000002476AF66F0: 4d 51 53 49-00 00 00 00-00 00 00 00-00 00 00 00 MQSI............ 4953514d 00000000 00000000 00000000 000000004953514d 0000000000000000
+0000002476AF6700: 59 4b 9f 4e-fb 7f 00 00-00 00 00 00-d2 01 00 00 YKŸNû.......Ò... 4e9f4b59 00007ffb 00000000 000001d2 00007ffb4e9f4b59 000001d200000000
+0000002476AF6710: a0 1f 3d 0a-d2 01 00 00-01 ec f7 50-fb 7f 00 00  .=.Ò....ì÷Pû... 0a3d1fa0 000001d2 50f7ec01 00007ffb 000001d20a3d1fa0 00007ffb50f7ec01
+0000002476AF6720: 25 00 00 00-00 00 00 00-08 67 af 76-24 00 00 00 %........g¯v$... 00000025 00000000 76af6708 00000024 0000000000000025 0000002476af6708
+0000002476AF6730: 00 00 00 00-00 00 00 00-47 d6 f3 e2-fa 7f 00 00 ........GÖóâú... 00000000 00000000 e2f3d647 00007ffa 0000000000000000 00007ffae2f3d647
+0000002476AF6740: 80 6c af 76-24 00 00 00-4b 00 00 00-00 00 00 00 .l¯v$...K....... 76af6c80 00000024 0000004b 00000000 0000002476af6c80 000000000000004b
+0000002476AF6750: 00 00 00 00-00 00 00 00-ff ff ff ff-00 00 00 00 ........ÿÿÿÿ.... 00000000 00000000 ffffffff 00000000 0000000000000000 00000000ffffffff
+0000002476AF6760: 00 00 3c 0a-d2 01 00 00-90 d6 f3 e2-fa 7f 00 00 ..<.Ò....Öóâú... 0a3c0000 000001d2 e2f3d690 00007ffa 000001d20a3c0000 00007ffae2f3d690
+0000002476AF6770: 08 00 00 00-00 00 00 00-1a 9b f7 50-fb 7f 00 00 .........›÷Pû... 00000008 00000000 50f79b1a 00007ffb 0000000000000008 00007ffb50f79b1a
+0000002476AF6780: 00 00 3c 0a-d2 01 00 00-04 00 00 00-00 00 00 00 ..<.Ò........... 0a3c0000 000001d2 00000004 00000000 000001d20a3c0000 0000000000000004
+0000002476AF6790: 09 fe 83 9c-19 e8 00 00-d0 25 00 00-00 00 00 00 .þƒœ.è..Ð%...... 9c83fe09 0000e819 000025d0 00000000 0000e8199c83fe09 00000000000025d0
+0000002476AF67A0: 2d 01 00 c0-00 00 00 00-dd 14 e3 e2-fa 7f 00 00 -..À....Ý.ãâú... c000012d 00000000 e2e314dd 00007ffa 00000000c000012d 00007ffae2e314dd
+0000002476AF67B0: 00 00 3c 0a-d2 01 00 00-00 68 af 76-24 00 00 00 ..<.Ò....h¯v$... 0a3c0000 000001d2 76af6800 00000024 000001d20a3c0000 0000002476af6800
+0000002476AF67C0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+0000002476AF67D0: 00 10 00 00-00 00 00 00-04 00 00 00-00 00 00 00 ................ 00001000 00000000 00000004 00000000 0000000000001000 0000000000000004
+0000002476AF67E0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+0000002476AF67F0: 00 40 00 00-00 00 00 00-00 00 00 00-00 00 00 00 .@.............. 00004000 00000000 00000000 00000000 0000000000004000 0000000000000000
+0000002476AF6800: f0 a4 3c 0a-d2 01 00 00-50 01 3c 0a-d2 01 00 00 ð¤<.Ò...P.<.Ò... 0a3ca4f0 000001d2 0a3c0150 000001d2 000001d20a3ca4f0 000001d20a3c0150
+0000002476AF6810: 5d 02 00 00-00 00 00 00-fc 01 00 fd-00 00 00 00 ].......ü..ý.... 0000025d 00000000 fd0001fc 00000000 000000000000025d 00000000fd0001fc
+0000002476AF6820: 00 00 00 00-00 00 00 00-00 00 3c 0a-d2 01 00 00 ..........<.Ò... 00000000 00000000 0a3c0000 000001d2 0000000000000000 000001d20a3c0000
+0000002476AF6830: fe ff ff ff-ff ff ff ff-ae f1 f9 50-fb 7f 00 00 þÿÿÿÿÿÿÿ®ñùPû... fffffffe ffffffff 50f9f1ae 00007ffb fffffffffffffffe 00007ffb50f9f1ae
+0000002476AF6840: 00 00 00 00-00 00 00 00-00 00 73 f6-f4 01 00 00 ..........söô... 00000000 00000000 f6730000 000001f4 0000000000000000 000001f4f6730000
+0000002476AF6850: 00 00 3c 0a-d2 01 00 00-5d 02 00 00-00 00 00 00 ..<.Ò...]....... 0a3c0000 000001d2 0000025d 00000000 000001d20a3c0000 000000000000025d
+0000002476AF6860: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+0000002476AF6870: 01 00 00 00-00 00 00 00-5d 02 00 00-00 00 00 00 ........]....... 00000001 00000000 0000025d 00000000 0000000000000001 000000000000025d
+0000002476AF6880: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+0000002476AF6890: 00 00 00 00-00 00 00 00-01 00 00 00-00 00 00 00 ................ 00000000 00000000 00000001 00000000 0000000000000000 0000000000000001
+0000002476AF68A0: 20 20 20 20-20 20 3a 2d-20 30 78 30-30 30 30 33       :- 0x00003 20202020 2d3a2020 30783020 33303030 2d3a202020202020 3330303030783020
+0000002476AF68B0: 25 03 00 00-00 10 00 00-ff 0f 00 00-00 00 00 00 %.......ÿ....... 00000325 00001000 00000fff 00000000 0000100000000325 0000000000000fff
+0000002476AF68C0: 01 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000001 00000000 00000000 00000000 0000000000000001 0000000000000000
+0000002476AF68D0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+0000002476AF68E0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+0000002476AF68F0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+0000002476AF6900: 00 00 00 00-00 00 00 38-00 00 00 00-00 00 00 00 .......8........ 00000000 38000000 00000000 00000000 3800000000000000 0000000000000000
+0000002476AF6910: 30 fb ff ff-a0 07 00 00-30 fb ff ff-d0 04 00 00 0ûÿÿ ...0ûÿÿÐ... fffffb30 000007a0 fffffb30 000004d0 000007a0fffffb30 000004d0fffffb30
+0000002476AF6920: f0 00 00 00-e0 01 00 00-f1 00 00 00-00 00 00 00 ð...à...ñ....... 000000f0 000001e0 000000f1 00000000 000001e0000000f0 00000000000000f1
+0000002476AF6930: 27 00 00 c0-02 00 00 00-00 00 00 00-00 00 00 00 '..À............ c0000027 00000002 00000000 00000000 00000002c0000027 0000000000000000
+0000002476AF6940: e4 24 e3 e2-fa 7f 00 00-02 00 00 00-00 00 00 00 ä$ãâú........... e2e324e4 00007ffa 00000002 00000000 00007ffae2e324e4 0000000000000002
+
+---> Loaded Modules <---
+Start              End                SymTyp ImagePath (ModuleLinkTime) : SymbolPath
+--+++--
+
+---> Sys Info <---
+Machine Name: SPOPCBT029690
+Process User Name: fslima
+No of Processors: 8
+Processor Type: Intel64 Family 6 Model 94 Stepping 3
+OS: Windows 10 Enterprise
+Current Type: Multiprocessor Free
+Command Line: IntegrationServer --name TEST_SERVER --work-dir C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\TEST_SERVER
+Code Level: %Z% %I% %W% %E% %U% [%H% %T%]
+Lib Version: 4.0.5.0 : Required Version: TRUE
+
+---> Sym Search Path <---
+<Unknown> : 6
+
+--->------------------------------<ABEND FILE END>------------------------------<---

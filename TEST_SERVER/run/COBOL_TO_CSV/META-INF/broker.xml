@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\COBOL_TO_CSVproject.generated.bar" deployTimestamp="2024-05-28 13:10:28">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.cobol.to.csv.COBOL_TO_CSV" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\COBOL_TO_CSVproject.generated.bar" deployTimestamp="2024-05-28 13:10:28">
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#HTTP Input.URLSpecifier" override="/cobol_to_csv">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.cobol.to.csv.COBOL_TO_CSV#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

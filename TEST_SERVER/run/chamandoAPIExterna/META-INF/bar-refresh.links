@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1716761152672" workspaceResource="/chamandoAPIExterna/ESTUDO-ACE.yaml">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file chamandoAPIExterna\ESTUDO-ACE.yaml.&#xA;Successfully added file chamandoAPIExterna\ESTUDO-ACE.yaml to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file chamandoAPIExterna\ESTUDO-ACE.yaml to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ESTUDO-ACE.yaml"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716761169691" workspaceResource="/chamandoAPIExterna/ESTUDO-ACE1.yaml">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file chamandoAPIExterna\ESTUDO-ACE1.yaml.&#xA;Successfully added file chamandoAPIExterna\ESTUDO-ACE1.yaml to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file chamandoAPIExterna\ESTUDO-ACE1.yaml to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ESTUDO-ACE1.yaml"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716756459562" workspaceResource="/chamandoAPIExterna/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file chamandoAPIExterna\application.descriptor.&#xA;Successfully added file chamandoAPIExterna\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file chamandoAPIExterna\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716762117412" workspaceResource="/chamandoAPIExterna/br/com/consultando/api/externa/consultaAPI.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file chamandoAPIExterna\br\com\consultando\api\externa\consultaAPI.msgflow.&#xA;Successfully added file chamandoAPIExterna\br\com\consultando\api\externa\consultaAPI.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\consultando\api\externa\consultaAPI.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716764959154" workspaceResource="/chamandoAPIExterna/br/com/consultando/api/externa/consultaAPI_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file chamandoAPIExterna\br\com\consultando\api\externa\consultaAPI_Compute.esql.&#xA;Successfully added file chamandoAPIExterna\br\com\consultando\api\externa\consultaAPI_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\consultando\api\externa\consultaAPI_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716758286808" workspaceResource="/chamandoAPIExterna/br/com/consultando/api/externa/consultandoAPIExterna.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file chamandoAPIExterna\br\com\consultando\api\externa\consultandoAPIExterna.msgflow.&#xA;Successfully added file chamandoAPIExterna\br\com\consultando\api\externa\consultandoAPIExterna.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\consultando\api\externa\consultandoAPIExterna.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716765023611" workspaceResource="/chamandoAPIExterna/br/com/consultando/api/externa/consultandoAPIExterna_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file chamandoAPIExterna\br\com\consultando\api\externa\consultandoAPIExterna_Compute.esql.&#xA;Successfully added file chamandoAPIExterna\br\com\consultando\api\externa\consultandoAPIExterna_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\consultando\api\externa\consultandoAPIExterna_Compute.esql"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

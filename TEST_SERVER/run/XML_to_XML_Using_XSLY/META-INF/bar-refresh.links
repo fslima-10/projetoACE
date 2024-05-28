@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1716743449127" workspaceResource="/XML_to_XML_Using_XSLY/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_to_XML_Using_XSLY\application.descriptor.&#xA;Successfully added file XML_to_XML_Using_XSLY\application.descriptor to BAR file.&#xA;Elapsed time: 0,001 second(s).&#xA;&#xA;Successfully added file XML_to_XML_Using_XSLY\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716744145891" workspaceResource="/XML_to_XML_Using_XSLY/br/com/xml/to/xml/xml_to_xml_using_xslt.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_to_XML_Using_XSLY\br\com\xml\to\xml\xml_to_xml_using_xslt.msgflow.&#xA;Successfully added file XML_to_XML_Using_XSLY\br\com\xml\to\xml\xml_to_xml_using_xslt.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\xml\to\xml\xml_to_xml_using_xslt.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1646244632000" workspaceResource="/XML_to_XML_Using_XSLY/xsl_for_each.xsl">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_to_XML_Using_XSLY\xsl_for_each.xsl.&#xA;Successfully added file XML_to_XML_Using_XSLY\xsl_for_each.xsl to BAR file.&#xA;" severity="0"/>
+      <barEntry name="xsl_for_each.xsl"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

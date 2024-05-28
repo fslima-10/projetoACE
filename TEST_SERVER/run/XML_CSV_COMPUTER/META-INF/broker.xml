@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\XML_CSV_COMPUTERproject.generated.bar" deployTimestamp="2024-05-22 15:38:11">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.treino.XML_2_CSV_FLOW" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\XML_CSV_COMPUTERproject.generated.bar" deployTimestamp="2024-05-22 15:38:11">
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#HTTP Input.URLSpecifier" override="/xml2csv">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.treino.XML_2_CSV_FLOW#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\XML_to_JSONproject.generated.bar" deployTimestamp="2024-05-28 12:28:03">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.xml.to.json.XML_to_JSON" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\XML_to_JSONproject.generated.bar" deployTimestamp="2024-05-28 12:28:03">
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#HTTP Input.URLSpecifier" override="/xml_to_json">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.json.XML_to_JSON#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

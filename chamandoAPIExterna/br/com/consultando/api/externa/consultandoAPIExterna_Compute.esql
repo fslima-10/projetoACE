@@ -1,0 +1,24 @@
+BROKER SCHEMA br.com.consultando.api.externa
+
+
+CREATE COMPUTE MODULE consultandoAPIExterna_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		CREATE FIELD InputRoot.JSON.Data;
+		DECLARE ENTRADA_JSON REFERENCE TO InputRoot.JSON.Data;
+		CREATE FIELD OutputRoot.JSON.Data;
+		
+		DECLARE SAIDA_JSON REFERENCE TO OutputRoot.JSON.Data;
+		SET SAIDA_JSON.documento = ENTRADA_JSON.documento;
+		SET SAIDA_JSON.nome = ENTRADA_JSON.nome;
+		
+		SET SAIDA_JSON.documento2 = 456798;
+		SET SAIDA_JSON.nome2 = 'CHAMADA EXTERNA';
+		
+		
+			RETURN TRUE;
+	END;
+
+	
+END MODULE;
+

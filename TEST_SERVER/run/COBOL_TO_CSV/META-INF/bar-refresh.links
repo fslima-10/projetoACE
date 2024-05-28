@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1716900094052" workspaceResource="/COBOL_TO_CSV/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file COBOL_TO_CSV\application.descriptor.&#xA;Successfully added file COBOL_TO_CSV\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file COBOL_TO_CSV\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716900810110" workspaceResource="/COBOL_TO_CSV/br/com/cobol/to/csv/COBOL_TO_CSV.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file COBOL_TO_CSV\br\com\cobol\to\csv\COBOL_TO_CSV.msgflow.&#xA;Successfully added file COBOL_TO_CSV\br\com\cobol\to\csv\COBOL_TO_CSV.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\cobol\to\csv\COBOL_TO_CSV.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716900193484" workspaceResource="/COBOL_TO_CSV/br/com/cobol/to/csv/COBOL_TO_CSV_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file COBOL_TO_CSV\br\com\cobol\to\csv\COBOL_TO_CSV_Compute.esql.&#xA;Successfully added file COBOL_TO_CSV\br\com\cobol\to\csv\COBOL_TO_CSV_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\cobol\to\csv\COBOL_TO_CSV_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716901799815" workspaceResource="/COBOL_TO_CSV/br/com/cobol/to/csv/COBOL_TO_CSV_Mapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file COBOL_TO_CSV\br\com\cobol\to\csv\COBOL_TO_CSV_Mapping.map.&#xA;Successfully added file COBOL_TO_CSV\br\com\cobol\to\csv\COBOL_TO_CSV_Mapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br/com/cobol/to/csv/COBOL_TO_CSV_Mapping.map"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

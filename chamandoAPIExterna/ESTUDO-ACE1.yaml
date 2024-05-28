@@ -1,0 +1,54 @@
+---
+swagger: "2.0"
+info:
+  description: "API com os servicos de Estudo"
+  version: "1.0.0"
+  title: "ESTUDO ACE"
+  contact:
+    email: "fslima@sp.gov.br"
+host: "localhost:7800"
+basePath: "/estudoACE"
+tags:
+- name: "Consultas"
+  description: "Operacao de Consultas (GET)"
+- name: "Atualizacoes"
+  description: "Operacoes de Atualizacoes (PUT)"
+- name: "Inclusoes"
+  description: "Operacoes de Inclusoes (POST)"
+schemes:
+- "http"
+produces:
+- "application/json"
+paths:
+  /consultaAPIExterna:
+    get:
+      tags:
+      - "Consultas"
+      summary: "consulta Debitos Transferencia"
+      description: "consulta Debitos Transferencia"
+      operationId: "consultaCliente"
+      parameters:
+      - name: "documento"
+        in: "query"
+        description: "Renavam, CPF ou CNPJ"
+        required: true
+        type: "integer"
+        maximum: 99999999999
+        minimum: 1
+        format: "int64"
+      responses:
+        "200":
+          description: "Sucesso"
+          schema:
+            $ref: "#/definitions/consultaCliente"
+definitions:
+  consultaCliente:
+    type: "object"
+    properties:
+      documento:
+        type: "integer"
+        format: "int64"
+        example: 13000
+      nome:
+        type: "string"
+        example: "Fabio lima"

@@ -1,0 +1,269 @@
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+| First Failure Symptom Report                                                |
+|   ========================                                                  |
+|                                                                             |
+| Proc start time (GMT) :- Wed May 22 13:07:44 2024                           |
+|                                                                             |
+|   Product Details                                                           |
+|   +++++++++++++++                                                           |
+|                                                                             |
+| Vendor                :- IBM                                                |
+| Product Name          :- IBM App Connect Enterprise                         |
+| Program ID            :- 5724-J05                                           |
+| Version               :- 12090                                              |
+|                                                                             |
+|   OS Information                                                            |
+|   ++++++++++++++                                                            |
+|                                                                             |
+| Operating System      :- Windows 10 Enterprise                              |
+| Node Name             :- SPOPCBT029690                                      |
+| No of Processors      :- 8                                                  |
+| Processor Type        :- Intel64 Family 6 Model 94 Stepping 3               |
+| Current Type          :- Multiprocessor Free                                |
+| Dbghelp version       :- 4.0.5.0                                            |
+|                                                                             |
+|   Environment                                                               |
+|   +++++++++++                                                               |
+|                                                                             |
+| Service User ID       :- fslima                                             |
+| Executable Name       :- IntegrationServer.exe                              |
+| Process ID            :- 976                                                |
+|                                                                             |
+|   Deployment                                                                |
+|   ++++++++++                                                                |
+|                                                                             |
+| Server State          :- unset                                              |
+| Processing Admin Mess :- no                                                 |
+|                                                                             |
+|   Build Information                                                         |
+|   +++++++++++++++++                                                         |
+|                                                                             |
+| Sandbox               :- C:/ci/product-build/WMB                            |
+| Code Level            :- S000-L230629.12545                                 |
+| Build type            :- Production                                         |
+| Build context         :- amd64_nt_4                                         |
+| 64 Bit Build          :- yes                                                |
+|                                                                             |
++------------------------- Thread Context unavailable ------------------------+
+                                                                               
+Abend Record for PID: 976 TID: 0x35B8 on: Wed May 22 13:08:00 2024
+
+---> Location <---
+File: C:\ci\product-build\WMB\src\CommonServices\Win32\ImbAbend.cpp
+Line: 3235
+Function: ImbAbend::newHandler
+AbendAction: 3
+
+---> Inserts <---
+Failed to allocate memory
+1876
+
+---> Last Errors <---
+Note these error codes are not necessarily reliable
+GetLastError() returned: 8
+errno          returned: 0
+
+
+---> Process Status <---
+Memory:
+Usage Load: 92 percent
+Total Physical Memory: 33478412 Kbytes
+Available Physical Memory: 2549956 Kbytes
+Total PageFile: 134141708 Kbytes
+Available PageFile: 0 Kbytes
+Total Virtual Memory: 137438953344 Kbytes
+Available Virtual Memory: 137434456704 Kbytes
+Available Extended Memory: 0 free Kbytes
+
+Working Set:
+Min: 200 Kbytes
+Max: 1380 Kbytes
+
+Timings:
+Creation Time: D-22 M-5 Y-2024 : 16:7:21.545
+Kernel Time: 62 ms
+User Time: 187 ms
+
+---> Process Environment Variables <---
+=::=::\
+=C:=C:\Program Files\IBM\ACE\12.0.9.0\tools
+=ExitCode=00000000
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\fslima\AppData\Roaming
+CLASSPATH=C:\Program Files\IBM\MQ\java\lib\com.ibm.mq.jar;C:\Program Files\IBM\MQ\java\lib\com.ibm.mqjms.jar;C:\Program Files\IBM\MQ\java\lib\connector.jar;C:\Program Files\IBM\MQ\java\lib\com.ibm.mq.pcf.jar;C:\Program Files\IBM\MQ\java\lib\com.ibm.mq.jmqi.jar;C:\Program Files\IBM\MQ\java\lib\com.ibm.mq.headers.jar;C:\Program Files\IBM\MQ\java\lib\com.ibm.mq.commonservices.jar;C:\Program Files\IBM\ACE\12.0.9.0\server\messages;C:\Program Files\IBM\ACE\12.0.9.0\common\classes;C:\Program Files\IBM\ACE\12.0.9.0\server\classes;C:\Program Files\IBM\ACE\12.0.9.0\common\classes\IntegrationAPI.jar;C:\Program Files\IBM\ACE\12.0.9.0\server\classes\brokerutil.jar;C:\Program Files\IBM\MQ\java\lib\com.ibm.mqjms.jar;C:\Program Files\IBM\MQ\java\lib\com.ibm.mq.jar;C:\ProgramData\IBM\MQSI\common\wsrr
+CLIENTNAME=NPSEDEBP172649
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=SPOPCBT029690
+ComSpec=C:\Windows\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\fslima
+IBM_COREDIR=C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\TEST_SERVER\config\common\errors
+IBM_HEAPDUMPDIR=C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\TEST_SERVER\config\common\errors
+IBM_JAVACOREDIR=C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\TEST_SERVER\config\common\errors
+IBM_JAVA_COMMAND_LINE=C:\Program Files\IBM\ACE\12.0.9.0\tools\../common/jdk/jre/bin/javaw-ACE-12.0.9.0.exe -Xquickstart -Xms256m -Xmx1024m -Xmnx64m -Xgcpolicy:gencon -Xss2m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:+UseParallelGC -Declipse.p2.data.area=@config.dir/../p2/ -Dorg.osgi.framework.os.name=win32 -jar C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -os win32 -ws win32 -arch x86_64 -showsplash C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins\com.ibm.etools.msgbroker.tooling_12.0.9.0\splash.bmp -launcher C:\Program Files\IBM\ACE\12.0.9.0\tools\eclipse.exe -name Eclipse --launcher.library C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.1100.v20190907-0426\eclipse_1902.dll -startup C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar --launcher.overrideVmargs -exitdata 24fc_b8 -showlocation -product com.ibm.etools.msgbroker.tooling.ide -configuration @user.home/AppData/Local/IBM/ACET12-config/12.0.9.0/configuration -showlocation -product com.ibm.etools.msgbroker.tooling.ide -vm C:\Program Files\IBM\ACE\12.0.9.0\tools\../common/jdk/jre/bin/javaw-ACE-12.0.9.0.exe -vmargs -Xquickstart -Xms256m -Xmx1024m -Xmnx64m -Xgcpolicy:gencon -Xss2m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:+UseParallelGC -Declipse.p2.data.area=@config.dir/../p2/ -Dorg.osgi.framework.os.name=win32 -jar C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+INCLUDE=C:\Program Files\IBM\ACE\12.0.9.0\server\include;C:\Program Files\IBM\MQ\tools\c\include;C:\Program Files\IBM\MQ\tools\cplus\include
+level=12.0.9.0
+LIB=C:\Program Files\IBM\ACE\12.0.9.0\server\lib;C:\Program Files\IBM\MQ\tools\lib64;C:\Program Files\IBM\MQ\tools\lib
+LOCALAPPDATA=C:\Users\fslima\AppData\Local
+LOGONSERVER=\\SRV10503
+MIBDIRS=C:\Program Files\IBM\ACE\12.0.9.0\server\snmp-mib
+MODE="noecho"
+MOZ_PLUGIN_PATH=C:\Program Files (x86)\Foxit Software\Foxit PDF Reader\plugins\
+MQSICOMMAND_PATH=C:\Program Files\IBM\ACE\12.0.9.0\tools
+MQSIPATH=C:\Program Files\IBM\ACE\12.0.9.0\server
+MQSI_BANNER=1
+MQSI_BASE_FILEPATH=C:\Program Files\IBM\ACE\12.0.9.0
+MQSI_CATALINA_HOME=C:\Program Files\IBM\ACE\12.0.9.0\server\catalina
+MQSI_CONSOLE_NLSPATH=C:\Program Files\IBM\ACE\12.0.9.0\server\messages\
+MQSI_EXMLTCONFIGPATH=C:\Program Files\IBM\ACE\12.0.9.0\server\exmltConfig
+MQSI_EXTENSIONS_PATH=C:\ProgramData\IBM\MQSI\extensions\12.0
+MQSI_FAD=10
+MQSI_FILEPATH=C:\Program Files\IBM\ACE\12.0.9.0\server
+MQSI_HOME=C:\Program Files\IBM\ACE\12.0.9.0\
+MQSI_JARPATH=C:\Program Files\IBM\ACE\12.0.9.0\common\classes;C:\Program Files\IBM\ACE\12.0.9.0\server\classes;C:\Program Files\IBM\ACE\12.0.9.0\server\messages
+MQSI_JREPATH=C:\Program Files\IBM\ACE\12.0.9.0\common\jdk\jre
+MQSI_LILPATH=C:\ProgramData\IBM\MQSI\extensions\12.0\server\bin;C:\Program Files\IBM\ACE\12.0.9.0\server\bin;C:\Program Files\IBM\ACE\12.0.9.0\server\jplugin
+MQSI_MQ_DIRECTORY=C:\Program Files\IBM\MQ
+MQSI_MQ_SETMQENV_CMD=C:\Program Files\IBM\MQ\bin\setmqenv.cmd
+MQSI_NODE_PATH=C:\Program Files\IBM\ACE\12.0.9.0\common\node\node_modules;C:\Program Files\IBM\ACE\12.0.9.0\server\nodejs_all\node_modules;C:\Program Files\IBM\ACE\12.0.9.0\server\nodejs_partial\node_modules;C:\ProgramData\IBM\MQSI\node_modules
+MQSI_PROCESSOR_ARCHITECTURE=64
+MQSI_PROFILE=1
+MQSI_REGISTRY=C:\ProgramData\IBM\MQSI
+MQSI_SECURITY_PROVIDER_PATH=C:\Program Files\IBM\ACE\12.0.9.0\server\bin
+MQSI_TOOLKIT_START=1
+MQSI_VERSION=12.0.9.0
+MQSI_VERSION_F=0
+MQSI_VERSION_M=9
+MQSI_VERSION_R=0
+MQSI_VERSION_V=12
+MQSI_WEBADMIN_HOME=C:\Program Files\IBM\ACE\12.0.9.0\server\webadmin
+MQSI_WORKPATH=C:\ProgramData\IBM\MQSI
+MQ_DATA_PATH=C:\ProgramData\IBM\MQ
+MQ_ENV_MODE=64
+MQ_FILE_PATH=C:\Program Files\IBM\MQ
+MQ_INSTALLATION_NAME=Installation1
+MQ_INSTALLATION_PATH=C:\Program Files\IBM\MQ
+MQ_JAVA_DATA_PATH=C:\ProgramData\IBM\MQ
+MQ_JAVA_INSTALL_PATH=C:\Program Files\IBM\MQ\java
+MQ_JAVA_LIB_PATH=C:\Program Files\IBM\MQ\java\lib64
+MQ_JRE_PATH=C:\Program Files\IBM\MQ\java\jre
+NUMBER_OF_PROCESSORS=8
+OneDrive=C:\Users\fslima\OneDrive
+OPENJ9_JAVA_COMMAND_LINE="C:\Program Files\IBM\ACE\12.0.9.0\tools\../common/jdk/jre/bin/javaw-ACE-12.0.9.0.exe" -Xquickstart -Xms256m -Xmx1024m -Xmnx64m -Xgcpolicy:gencon -Xss2m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:+UseParallelGC -Declipse.p2.data.area=@config.dir/../p2/ -Dorg.osgi.framework.os.name=win32 -jar "C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar" -os win32 -ws win32 -arch x86_64 -showsplash "C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins\com.ibm.etools.msgbroker.tooling_12.0.9.0\splash.bmp" -launcher "C:\Program Files\IBM\ACE\12.0.9.0\tools\eclipse.exe" -name Eclipse --launcher.library "C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.1100.v20190907-0426\eclipse_1902.dll" -startup "C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar" --launcher.overrideVmargs -exitdata 24fc_b8 -showlocation -product com.ibm.etools.msgbroker.tooling.ide -configuration @user.home/AppData/Local/IBM/ACET12-config/12.0.9.0/configuration -showlocation -product com.ibm.etools.msgbroker.tooling.ide -vm "C:\Program Files\IBM\ACE\12.0.9.0\tools\../common/jdk/jre/bin/javaw-ACE-12.0.9.0.exe" -vmargs -Xquickstart -Xms256m -Xmx1024m -Xmnx64m -Xgcpolicy:gencon -Xss2m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:+UseParallelGC -Declipse.p2.data.area=@config.dir/../p2/ -Dorg.osgi.framework.os.name=win32 -jar "C:\Program Files\IBM\ACE\12.0.9.0\tools\\plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar" 
+OS=Windows_NT
+Path=C:\Program Files\IBM\MQ\java\lib64;C:\Program Files\IBM\ACE\12.0.9.0\;C:\Program Files\IBM\ACE\12.0.9.0\server\bin;C:\Program Files\IBM\ACE\12.0.9.0\tools;C:\Program Files\IBM\ACE\12.0.9.0\common\jdk\jre\bin;C:\Program Files\IBM\ACE\12.0.9.0\common\jdk\jre\lib\icc;C:\ProgramData\IBM\MQSI\extensions\12.0\server\bin;C:\ProgramData\IBM\MQSI\extensions\12.0\bin;C:\Program Files\IBM\ACE\12.0.9.0\server\bin;C:\Program Files\IBM\ACE\12.0.9.0\common\node;C:\Program Files\IBM\ACE\12.0.9.0\tools;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\IBM\MQ\java\lib;C:\Program Files\IBM\MQ\java\lib64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\IBM\MQ\bin64;C:\Program Files\IBM\MQ\bin;C:\Program Files\IBM\MQ\tools\c\samples\bin64;C:\Program Files\IBM\MQ\tools\c\samples\bin;C:\Program Files\Git\cmd;C:\Users\fslima\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Azure Data Studio\bin;C:\Users\fslima\AppData\Local\Programs\Microsoft VS Code\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=5e03
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PROSPECTIVE_MQSI_FILEPATH=C:\Program Files\IBM\ACE\12.0.9.0\server
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+SESSIONNAME=RDP-Tcp#9
+SystemDrive=C:
+SystemRoot=C:\Windows
+TEMP=C:\Users\fslima\AppData\Local\Temp
+TMP=C:\Users\fslima\AppData\Local\Temp
+TOOLKIT_LOCATION="C:\Users\fslima\AppData\Local\IBM\ACET12-config\12.0.9.0"
+TOOLS_FILEPATH=C:\Program Files\IBM\ACE\12.0.9.0\tools
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN=INTRA.FAZENDA.SP.GOV.BR
+USERDOMAIN=INTRA
+USERDOMAIN_ROAMINGPROFILE=INTRA
+USERNAME=fslima
+USERPROFILE=C:\Users\fslima
+windir=C:\Windows
+_NT_SYMBOL_PATH=C:\ProgramData\IBM\MQSI\extensions\12.0\server\bin;C:\ProgramData\IBM\MQSI\extensions\12.0\bin;C:\Program Files\IBM\ACE\12.0.9.0\server\sample\xatm;C:\Program Files\IBM\ACE\12.0.9.0\server\sample\DotNet\DotNetInput\VS2012;C:\Program Files\IBM\ACE\12.0.9.0\server\sample\DotNet\DotNetCompute\VS2010;C:\Program Files\IBM\ACE\12.0.9.0\server\migration;C:\Program Files\IBM\ACE\12.0.9.0\common\jdk\jre\bin\j9vm;C:\Program Files\IBM\ACE\12.0.9.0\common\jdk\jre\bin\default;C:\Program Files\IBM\ACE\12.0.9.0\common\jdk\jre\bin\compressedrefs;C:\Program Files\IBM\ACE\12.0.9.0\common\jdk\jre\bin\classic;C:\Program Files\IBM\ACE\12.0.9.0\common\jdk\jre\bin;C:\Program Files\IBM\ACE\12.0.9.0\server\bin
+
+
+---> Stack dump for the current thread (0x35B8), with malloc allowed. <---
+Registers:
+RAX=0x00007FFAE2EB9AB0 RBX=0x0000000000000003 RCX=0x0000000000000003 RDX=0x0000000000000001
+RSP=0x000000C86F1F8FD0 RBP=0x000000C86F1FA620 RSI=0x000000C86F1F9550 RDI=0x0000000000000000
+ R8=0x000000C86F1F9550  R9=0x000000C86F1F9B50 R10=0x00007FFAE2E314DD R11=0x000000C86F1F95B0
+R12=0x00007FFAE2B70000 R13=0x000000C86F1FA620 R14=0x0000000000000000 R15=0x000000C86F1F9B50
+RIP=0x00007FFAE2E313CC
+EFlags=0x00010246
+CS=0x0033 DS=0x002B ES=0x002B FS=0x0053 GS=0x002B SS=0x002B
+
+ Internal Abend Warning: Unable to initialize the symbol engine. All stack frames in the following backtrace (if any) should be treated with extreme caution.  Error Code: 8
+
+Stack Backtrace:
+ # ChildRBP         RetAddr           Param#1          Param#2          Param#3          Param#4           Fn-Loc'n         : Module!Function+Offset [File Name # Line+Offset @ Address]
+00 000000C86F1F8FC8 0000000000000000 (0000000000000000 0000000000000000 0000000000000000 0000000000000000) 00007FFAE2E313CC : ***StackWalk Warning: Module does not appear to exist. Following frames may be wrong. Error Code: 6 *** <Unknown:6><No Symbol Found>, Error Code: 6 <NLN:6>
+
+---> Raw stack dump <---
+RSP             : 00 01 02 03-04 05 06 07-08 09 0A 0B-0C 0D 0E 0F      ASCII             00       04       08       0C               00               08
+000000C86F1F8FD0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F8FE0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F8FF0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9000: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9010: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9020: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9030: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9040: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9050: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9060: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9070: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9080: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9090: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F90A0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F90B0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F90C0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F90D0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F90E0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F90F0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9100: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9110: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9120: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9130: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9140: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9150: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9160: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9170: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9180: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9190: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F91A0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F91B0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F91C0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F91D0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F91E0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F91F0: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9200: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9210: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9220: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9230: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+000000C86F1F9240: 00 00 00 00-00 00 00 00-00 00 00 00-00 00 00 00 ................ 00000000 00000000 00000000 00000000 0000000000000000 0000000000000000
+
+---> Loaded Modules <---
+Start              End                SymTyp ImagePath (ModuleLinkTime) : SymbolPath
+--+++--
+
+---> Sys Info <---
+Machine Name: SPOPCBT029690
+Process User Name: fslima
+No of Processors: 8
+Processor Type: Intel64 Family 6 Model 94 Stepping 3
+OS: Windows 10 Enterprise
+Current Type: Multiprocessor Free
+Command Line: IntegrationServer --name TEST_SERVER --work-dir C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\TEST_SERVER
+Code Level: %Z% %I% %W% %E% %U% [%H% %T%]
+Lib Version: 4.0.5.0 : Required Version: TRUE
+
+---> Sym Search Path <---
+<Unknown> : 6
+
+--->------------------------------<ABEND FILE END>------------------------------<---

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="br.com.cobol.to.csv" version="8.0.5.0" xmlns:map="br.com.cobol.to.csv">
+    <input path="mbsharedlib://COBOLMessageModel/Bill.xsd"/>
+    <output path="mbsharedlib://CSVMessageModelling/BillInfoDetails.xsd"/>
+    <namespaces>
+        <namespace kind="extension" prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="COBOL_TO_CSV_Mapping">
+        <input path="mb:msg(BILL,assembly,DFDL,Properties)" var="ComIbmMessageAssembly_BILL"/>
+        <output path="mb:msg(BillInfoDetailsData,assembly,DFDL,Properties)" var="MessageAssembly"/>
+        <move>
+            <input path="$ComIbmMessageAssembly_BILL/Properties"/>
+            <output path="$MessageAssembly/Properties"/>
+            <override>
+                <assign value="{CSVMessageModelling}">
+                    <output path="$MessageAssembly/Properties/MessageSet"/>
+                </assign>
+                <assign value="{}:BillInfoDetailsData">
+                    <output path="$MessageAssembly/Properties/MessageType"/>
+                </assign>
+            </override>
+        </move>
+        <local>
+            <input path="$ComIbmMessageAssembly_BILL/BILL"/>
+            <output path="$MessageAssembly/BillInfoDetailsData"/>
+            <move>
+                <input path="BillNumber"/>
+                <output path="record/InvoiceNumber"/>
+            </move>
+            <move>
+                <input path="BillDate"/>
+                <output path="record/InvoiceDate"/>
+            </move>
+            <move>
+                <input path="CachierId"/>
+                <output path="record/CashierName"/>
+            </move>
+            <function ref="fn:concat">
+                <input path="CUSTLastName" var="CUSTLastName1"/>
+                <input path="CUSTFirstName" var="CUSTFirstName1"/>
+                <output path="record/CustomerName"/>
+                <param name="string1" value="$CUSTLastName1"/>
+                <param name="string2" value="$CUSTFirstName1"/>
+            </function>
+            <move>
+                <input path="Mobile"/>
+                <output path="record/Customer_Phone"/>
+            </move>
+            <foreach>
+                <input path="Purchase"/>
+                <output path="record/cart"/>
+                <move>
+                    <input path="Category"/>
+                    <output path="Category"/>
+                </move>
+                <move>
+                    <input path="ProductName"/>
+                    <output path="ProductName"/>
+                </move>
+                <move>
+                    <input path="UnitPrice"/>
+                    <output path="UnitPrice"/>
+                </move>
+                <move>
+                    <input path="Quantity"/>
+                    <output path="Quantity"/>
+                </move>
+            </foreach>
+        </local>
+    </mappingDeclaration>
+</mappingRoot>

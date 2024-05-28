@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\XML_to_XML_Using_XSLYproject.generated.bar" deployTimestamp="2024-05-26 17:23:07">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.xml.to.xml.xml_to_xml_using_xslt" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\XML_to_XML_Using_XSLYproject.generated.bar" deployTimestamp="2024-05-26 17:23:07">
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#HTTP Input.URLSpecifier" override="/xmlTo/xml">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#XSL Transform.stylesheetName" override="xsl_for_each.xsl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#XSL Transform.stylesheetPath">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.xml.to.xml.xml_to_xml_using_xslt#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

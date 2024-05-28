@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1716387942000" workspaceResource="/XML_CSV_COMPUTER/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_CSV_COMPUTER\application.descriptor.&#xA;Successfully added file XML_CSV_COMPUTER\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file XML_CSV_COMPUTER\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716387942000" workspaceResource="/XML_CSV_COMPUTER/br/com/treino/XML_2_CSV_FLOW.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_CSV_COMPUTER\br\com\treino\XML_2_CSV_FLOW.msgflow.&#xA;Successfully added file XML_CSV_COMPUTER\br\com\treino\XML_2_CSV_FLOW.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\treino\XML_2_CSV_FLOW.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716391573158" workspaceResource="/XML_CSV_COMPUTER/br/com/treino/XML_2_CSV_FLOW_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_CSV_COMPUTER\br\com\treino\XML_2_CSV_FLOW_Compute.esql.&#xA;Successfully added file XML_CSV_COMPUTER\br\com\treino\XML_2_CSV_FLOW_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\treino\XML_2_CSV_FLOW_Compute.esql"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

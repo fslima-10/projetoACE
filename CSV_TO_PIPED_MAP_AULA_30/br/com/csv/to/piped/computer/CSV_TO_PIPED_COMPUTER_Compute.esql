@@ -1,0 +1,54 @@
+BROKER SCHEMA br.com.csv.to.piped.computer
+
+
+CREATE COMPUTE MODULE CSV_TO_PIPED_COMPUTER_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		
+		
+		CREATE FIELD OutputRoot.DFDL.BillDetails_PipedData.header;
+		CREATE FIELD OutputRoot.DFDL.BillDetails_PipedData.record;
+		
+	   	DECLARE header REFERENCE to OutputRoot.DFDL.BillDetails_PipedData.header;
+		DECLARE record REFERENCE to OutputRoot.DFDL.BillDetails_PipedData.record;
+		
+		DECLARE entradaCSV REFERENCE to InputRoot.DFDL.BillDetailsData;
+		DECLARE saidaCSV   REFERENCE to OutputRoot.DFDL.BillDetails_PipedData;
+		
+			
+		
+		-- NO MessageSet É MECESSÁRIO INFORMAR O NOME DA SHARED QUE ESTÃO OS DFDL UTILIZADOS NO FLUXO
+		SET OutputRoot.Properties.MessageSet = '{CSV_AULA30_CSV_TO_PIPED}';
+		
+		--NO MessageType É NECESSÁRIO INFORMAR O XSD DE SAÍDA.
+		--SET OutputRoot.Properties.MessageType = '{}:BillDetails_PipedData';
+		
+		--CRIANDO O HEADER
+		CREATE LASTCHILD OF header TYPE NameValue NAME 'BillNumber' VALUE 'BillNumber';
+		CREATE LASTCHILD OF header TYPE NameValue NAME 'BillDate' VALUE 'BillDate';
+		CREATE LASTCHILD OF header TYPE NameValue NAME 'CashierName' VALUE 'CashierName';
+		CREATE LASTCHILD OF header TYPE NameValue NAME 'CustomerName' VALUE 'CustomerName';
+		CREATE LASTCHILD OF header TYPE NameValue NAME 'Customer_Phone' VALUE 'Customer_Phone';
+		CREATE LASTCHILD OF header TYPE NameValue NAME 'Total_purchases' VALUE 'Total_purchases';
+		
+		DECLARE cartRef REFERENCE TO InputRoot.DFDL.BillDetailsData.record[1];
+		
+		--DECLARE entradaCSVCount REFERENCE TO InputRoot.DFDL.BillDetailsData.record(count);
+		DECLARE BillNumber,BillDate,CashierName,CustomerName,Customer_Phone,Total_purchases CHARACTER '';
+		DECLARE I INTEGER 1 ;
+		
+		--WHILE (LASTMOVE(cartRef)) do
+						
+			SET saidaCSV.record.BillNumber      = entradaCSV.record.BillNumber;
+			SET saidaCSV.record.BillDate        = entradaCSV.record.BillDate;
+			SET saidaCSV.record.CashierName     = entradaCSV.record.CashierName;
+			SET saidaCSV.record.CustomerName    = entradaCSV.record.CustomerName;
+			SET saidaCSV.record.Customer_Phone  = entradaCSV.record.Customer_Phone;
+			SET saidaCSV.record.Total_purchases = entradaCSV.record.Total_purchases;
+			SET I = I+1;
+			
+	--	END WHILE;
+		
+	END;
+END MODULE;

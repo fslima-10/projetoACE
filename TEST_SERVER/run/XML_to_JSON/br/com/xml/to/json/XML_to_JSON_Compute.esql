@@ -1,0 +1,52 @@
+BROKER SCHEMA br.com.xml.to.json
+
+
+CREATE COMPUTE MODULE XML_to_JSON_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+	
+	
+		 CREATE LASTCHILD OF OutputRoot DOMAIN('JSON'); 
+		 CREATE FIELD OutputRoot.JSON.Data;
+		 
+		 DECLARE SAIDA_JSON REFERENCE TO OutputRoot.JSON.Data;
+		 DECLARE ENTRADA_XML REFERENCE TO InputRoot.XMLNSC.shoppingCart.Customer[1];
+		 
+		 
+		 CREATE FIELD SAIDA_JSON.PrimeCustomer IDENTITY(JSON.Array)PrimeCustomer;
+		 DECLARE I INTEGER 1;
+		 
+		 
+		 WHILE (LASTMOVE(ENTRADA_XML)) DO
+		 	
+		 	-- O CAMPO ID É UM ATRIBUDO DENTRO DO CAMPO CUSTOMER, POR ISSO USAMOS O XMLNSC.Attribute OS DEMAIS PASSAMOS DIRETAMENTE.
+		 	SET SAIDA_JSON.PrimeCustomer.Item[I].ID          = ENTRADA_XML.(XMLNSC.Attribute)ID;
+		 	SET SAIDA_JSON.PrimeCustomer.Item[I].Amount      = ENTRADA_XML.amount;
+		 	SET SAIDA_JSON.PrimeCustomer.Item[I].paymentType = ENTRADA_XML.paymentType;
+		 	SET I = I+1;
+		 	MOVE ENTRADA_XML NEXTSIBLING;
+		 END WHILE;
+		
+	/*<shoppingCart>
+	<Customer ID="434">
+	<amount>5600</amount>
+	<paymentType>netbanking</paymentType>
+	</Customer>
+	<Customer ID="435">
+	<amount>4580</amount>
+	<paymentType>card</paymentType>
+	</Customer>
+	<Customer ID="436">
+	<amount>2000</amount>
+	<paymentType>netbanking</paymentType>
+	</Customer>
+	<Customer ID="437">
+	<amount>5000</amount>
+	<paymentType>card</paymentType>
+	</Customer>
+</shoppingCart>*/
+		
+		
+	RETURN TRUE;
+END;
+END MODULE;

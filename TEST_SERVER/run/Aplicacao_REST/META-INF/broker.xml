@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Broker deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+<Broker deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-21 15:55:49">
   <CompiledApplication>
     <ConfigurableProperty uri="startMode">
     </ConfigurableProperty>
   </CompiledApplication>
-  <CompiledMessageFlow name="consultaLicenciamento" type="subflow" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+  <CompiledMessageFlow name="consultaLicenciamento" type="subflow" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-21 15:55:49">
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="gen.Aplicacao_REST" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+  <CompiledMessageFlow name="gen.Aplicacao_REST" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-21 15:55:49">
     <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Input.URLSpecifier" override="/aplicacao_rest/v1*">
     </ConfigurableProperty>
     <ConfigurableProperty uri="gen.Aplicacao_REST#HTTP Input.decompressInputMessage">
@@ -60,9 +60,9 @@
     <ConfigurableProperty uri="gen.Aplicacao_REST#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="consultaTransferencia" type="subflow" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+  <CompiledMessageFlow name="consultaTransferencia" type="subflow" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-21 15:55:49">
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="Json_Para_XML" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-13 21:28:41">
+  <CompiledMessageFlow name="Json_Para_XML" deployBarfile="C:\Broker\Projetos\ACE12\WS_Estudo\GeneratedBarFiles\Aplicacao_RESTproject.generated.bar" deployTimestamp="2024-05-21 15:55:49">
     <ConfigurableProperty uri="Json_Para_XML#HTTP Input.URLSpecifier" override="/jsonparaxml">
     </ConfigurableProperty>
     <ConfigurableProperty uri="Json_Para_XML#HTTP Input.decompressInputMessage">

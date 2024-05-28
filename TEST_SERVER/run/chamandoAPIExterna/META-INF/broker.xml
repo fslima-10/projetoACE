@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\chamandoAPIExternaproject.generated.bar" deployTimestamp="2024-05-26 23:10:35">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.consultando.api.externa.consultaAPI" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\chamandoAPIExternaproject.generated.bar" deployTimestamp="2024-05-26 23:10:35">
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#HTTP Input.URLSpecifier" override="/chamandoConsultaCliente">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.acceptCompressedResponses" override="true">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.baseURL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.enableKeepAlive">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.protocol">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.timeoutForServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consultaCliente.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultaAPI#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="br.com.consultando.api.externa.consultandoAPIExterna" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\chamandoAPIExternaproject.generated.bar" deployTimestamp="2024-05-26 23:10:35">
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#HTTP Input.URLSpecifier" override="/estudoACE/consultaAPIExterna">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.consultando.api.externa.consultandoAPIExterna#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>
