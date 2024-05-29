@@ -5,12 +5,12 @@
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_TO_JSON_JAVA\application.descriptor.&#xA;Successfully added file XML_TO_JSON_JAVA\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file XML_TO_JSON_JAVA\application.descriptor to BAR file.&#xA;" severity="0"/>
       <barEntry name="application.descriptor"/>
     </deployable>
-    <deployable deployed="true" barResourceTimeStamp="1716902118493" workspaceResource="/XML_TO_JSON_JAVA/br/com/xml/to/json/java/XML_TO_JSON_JAVA.msgflow">
+    <deployable deployed="true" barResourceTimeStamp="1716907320829" workspaceResource="/XML_TO_JSON_JAVA/br/com/xml/to/json/java/XML_TO_JSON_JAVA.msgflow">
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_TO_JSON_JAVA\br\com\xml\to\json\java\XML_TO_JSON_JAVA.msgflow.&#xA;Successfully added file XML_TO_JSON_JAVA\br\com\xml\to\json\java\XML_TO_JSON_JAVA.msgflow to BAR file.&#xA;" severity="0"/>
       <barEntry name="br\com\xml\to\json\java\XML_TO_JSON_JAVA.msgflow"/>
     </deployable>
     <deployable deployed="true" barResourceTimeStamp="1716902791713" workspaceResource="/XML_TO_JSON_JAVAJava/.classpath">
-      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_TO_JSON_JAVAJava\.classpath.&#xA;Successfully added file XML_TO_JSON_JAVAJava\.classpath to BAR file.&#xA;Elapsed time: 2,108 second(s).&#xA;" severity="0"/>
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file XML_TO_JSON_JAVAJava\.classpath.&#xA;Successfully added file XML_TO_JSON_JAVAJava\.classpath to BAR file.&#xA;Elapsed time: 1,178 second(s).&#xA;" severity="0"/>
       <barEntry name="XML_TO_JSON_JAVAJava.jar"/>
     </deployable>
   </deployables>

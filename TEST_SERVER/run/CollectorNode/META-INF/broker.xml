@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\CollectorNodeproject.generated.bar" deployTimestamp="2024-05-29 16:38:22">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.collector.Collector" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\CollectorNodeproject.generated.bar" deployTimestamp="2024-05-29 16:38:22">
+    <ConfigurableProperty uri="br.com.collector.Collector#Collector.collectionExpiry" override="20">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#Collector.configurableService">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.customDelimiter">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.fileFtp">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.fileFtpDirectory">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.fileFtpServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.fileFtpUser">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.outputDirectory" override="C:\Users\fslima\Downloads">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.outputFilename" override="Collector_Example.txt">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.recordDelimiter">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.remoteTransferType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.requestDirectoryLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.requestNameLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#File Output.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.policyUrl" override="{MQPolicyProject}:MQPolicy1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.queueName" override="N1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.policyUrl" override="{MQPolicyProject}:MQPolicy1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.queueName" override="N2">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#MQ Input1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.collector.Collector#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1716994758006" workspaceResource="/CollectorNode/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CollectorNode\application.descriptor.&#xA;Successfully added file CollectorNode\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file CollectorNode\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1717000701400" workspaceResource="/CollectorNode/br/com/collector/Collector.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CollectorNode\br\com\collector\Collector.msgflow.&#xA;Successfully added file CollectorNode\br\com\collector\Collector.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\collector\Collector.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716996955549" workspaceResource="/CollectorNode/br/com/collector/Collector_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CollectorNode\br\com\collector\Collector_Compute.esql.&#xA;Successfully added file CollectorNode\br\com\collector\Collector_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\collector\Collector_Compute.esql"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

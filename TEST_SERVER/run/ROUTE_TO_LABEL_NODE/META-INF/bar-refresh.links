@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1716913670363" workspaceResource="/ROUTE_TO_LABEL_NODE/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file ROUTE_TO_LABEL_NODE\application.descriptor.&#xA;Successfully added file ROUTE_TO_LABEL_NODE\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file ROUTE_TO_LABEL_NODE\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716914981167" workspaceResource="/ROUTE_TO_LABEL_NODE/br/com/rout/to/label/ROUT_TO_LABEL_EXAMPLE.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE.msgflow.&#xA;Successfully added file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716915116314" workspaceResource="/ROUTE_TO_LABEL_NODE/br/com/rout/to/label/ROUT_TO_LABEL_EXAMPLE_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute.esql.&#xA;Successfully added file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716914245017" workspaceResource="/ROUTE_TO_LABEL_NODE/br/com/rout/to/label/ROUT_TO_LABEL_EXAMPLE_Compute1.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute1.esql.&#xA;Successfully added file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute1.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute1.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716914257899" workspaceResource="/ROUTE_TO_LABEL_NODE/br/com/rout/to/label/ROUT_TO_LABEL_EXAMPLE_Compute2.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute2.esql.&#xA;Successfully added file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute2.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute2.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1716914278236" workspaceResource="/ROUTE_TO_LABEL_NODE/br/com/rout/to/label/ROUT_TO_LABEL_EXAMPLE_Compute3.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute3.esql.&#xA;Successfully added file ROUTE_TO_LABEL_NODE\br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute3.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\rout\to\label\ROUT_TO_LABEL_EXAMPLE_Compute3.esql"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

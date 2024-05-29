@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\FILTER_EXAMPLEproject.generated.bar" deployTimestamp="2024-05-28 15:16:28">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.filter.FILTER" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\FILTER_EXAMPLEproject.generated.bar" deployTimestamp="2024-05-28 15:16:28">
+    <ConfigurableProperty uri="br.com.filter.FILTER#Filter.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#Filter.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#HTTP Input.URLSpecifier" override="/filter_example">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#false.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#false.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#false.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#true.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#true.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#true.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#unknown.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#unknown.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#unknown.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.filter.FILTER#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

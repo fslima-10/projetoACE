@@ -1,4 +1,5 @@
 ---
+defaultQueueManager: 'ESTUDO_MQ'
 RestAdminListener:
     port: 7600
 ResourceManagers:

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" 
+xmlns:xmi="http://www.omg.org/XMI" xmlns:ComIbmCollector.msgnode="ComIbmCollector.msgnode" xmlns:ComIbmFileOutput.msgnode="ComIbmFileOutput.msgnode" xmlns:ComIbmMQInput.msgnode="ComIbmMQInput.msgnode" xmlns:ComIbmCompute.msgnode="ComIbmCompute.msgnode" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" 
+xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" nsURI="br/com/collector/Collector.msgflow" 
+nsPrefix="br_com_collector_Collector.msgflow">
+<eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1" nodeLayoutStyle="RECTANGLE">
+<eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
+<translation xmi:type="utility:TranslatableString" key="Collector" bundleName="br/com/collector/Collector" pluginId="flowAPIgenerated"/>
+<colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/flowAPIgenerated/icons/full/obj16/Collector.gif"/>
+<colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/flowAPIgenerated/icons/full/obj30/Collector.gif"/>
+<composition>
+<nodes xmi:type="ComIbmCollector.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="292,115" collectionName="collection1" collectionExpiry="20">
+<inTerminals terminalNodeID="IN1" dynamic="true" label="IN1" />
+<inTerminals terminalNodeID="IN2" dynamic="true" label="IN2" />
+<translation xmi:type="utility:ConstantString" string="Collector"/>
+<eventHandlerPropertyTable terminal="IN1" quantity="1" correlationPath="$Root/JSON/Data/Customer/ID" correlationPattern=""/>
+<eventHandlerPropertyTable terminal="IN2" quantity="1" correlationPath="$Root/JSON/Data/Customer/paymentType" correlationPattern=""/>
+</nodes>
+<nodes xmi:type="ComIbmFileOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="691,41" outputDirectory="C:\Users\fslima\Downloads" outputFilename="Collector_Example.txt">
+<translation xmi:type="utility:ConstantString" string="File Output"/>
+</nodes>
+<nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_9" location="103,90" queueName="N1" messageDomainProperty="JSON" policyUrl="{MQPolicyProject}:MQPolicy1">
+<translation xmi:type="utility:ConstantString" string="MQ Input"/>
+</nodes>
+<nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_10" location="99,195" queueName="N2" messageDomainProperty="JSON" policyUrl="{MQPolicyProject}:MQPolicy1">
+<translation xmi:type="utility:ConstantString" string="MQ Input1"/>
+</nodes>
+<nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_11" location="507,139" computeExpression="esql://routine/br.com.collector#Collector_Compute.Main">
+<translation xmi:type="utility:ConstantString" string="Compute"/>
+</nodes>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_9" sourceTerminalName="OutTerminal.out" targetTerminalName="IN1"/>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_10" sourceTerminalName="OutTerminal.out" targetTerminalName="IN2"/>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_3" targetNode="FCMComposite_1_11" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_4" targetNode="FCMComposite_1_5" sourceNode="FCMComposite_1_11" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_5" targetNode="FCMComposite_1_5" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.expire" targetTerminalName="InTerminal.in"/>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_6" targetNode="FCMComposite_1_5" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.catch" targetTerminalName="InTerminal.in"/>
+</composition>
+<propertyOrganizer>
+</propertyOrganizer>
+<stickyBoard>
+<stickyNote location="361,279" >
+<body xmi:type="utility:ConstantString" string="No nó Collector é possível adicionar entradas IN, por padrão ele vem somente com a entrada control.&#xA;Em Properties no campo Collection Expire informamos o tempo de espera para chegar todas os requests&#xA;Caso esse tempo expire o nó de saída vai ser o expire&#xA;Para usar o MQInput é necessário inserir uma Policy&#xA;Na aba Basic devemos informar qual é a Collection definition nas filas criadas no nosso exemplo N1 e N2&#xA;O valor recuperado vai ser do campo que informamos no Correlation Path&#xA;É necessário inserir um gerenciador de fila no IS, essa configuração é realizada no arquivo override-&gt;service.config&#xA;"/>
+</stickyNote>
+</stickyBoard>
+</eClassifiers>
+</ecore:EPackage>

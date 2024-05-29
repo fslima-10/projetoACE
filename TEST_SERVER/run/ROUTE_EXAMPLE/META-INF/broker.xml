@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\ROUTE_EXAMPLEproject.generated.bar" deployTimestamp="2024-05-28 18:26:31">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.route.ROUTE_EXAMPLE" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\ROUTE_EXAMPLEproject.generated.bar" deployTimestamp="2024-05-28 18:26:31">
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Compute1.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Compute1.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Compute1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Compute2.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Compute2.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Compute2.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#HTTP Input.URLSpecifier" override="/route">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#Route.distributionMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.route.ROUTE_EXAMPLE#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

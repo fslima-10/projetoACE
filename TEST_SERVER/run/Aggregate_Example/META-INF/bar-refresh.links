@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1717005250003" workspaceResource="/Aggregate_Example/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aggregate_Example\application.descriptor.&#xA;Successfully added file Aggregate_Example\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file Aggregate_Example\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1717009364386" workspaceResource="/Aggregate_Example/br/com/aggregate/aggregate_http_request.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aggregate_Example\br\com\aggregate\aggregate_http_request.msgflow.&#xA;Successfully added file Aggregate_Example\br\com\aggregate\aggregate_http_request.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\aggregate\aggregate_http_request.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1717011952204" workspaceResource="/Aggregate_Example/br/com/aggregate/aggregator_collector.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aggregate_Example\br\com\aggregate\aggregator_collector.msgflow.&#xA;Successfully added file Aggregate_Example\br\com\aggregate\aggregator_collector.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\aggregate\aggregator_collector.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1717011996811" workspaceResource="/Aggregate_Example/br/com/aggregate/aggregator_collector_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aggregate_Example\br\com\aggregate\aggregator_collector_Compute.esql.&#xA;Successfully added file Aggregate_Example\br\com\aggregate\aggregator_collector_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\aggregate\aggregator_collector_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1717006015610" workspaceResource="/Aggregate_Example/br/com/aggregate/api_externa.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aggregate_Example\br\com\aggregate\api_externa.msgflow.&#xA;Successfully added file Aggregate_Example\br\com\aggregate\api_externa.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\aggregate\api_externa.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1717009838246" workspaceResource="/Aggregate_Example/br/com/aggregate/api_externa_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aggregate_Example\br\com\aggregate\api_externa_Compute.esql.&#xA;Successfully added file Aggregate_Example\br\com\aggregate\api_externa_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\aggregate\api_externa_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1717009855459" workspaceResource="/Aggregate_Example/br/com/aggregate/api_externa_Compute1.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Aggregate_Example\br\com\aggregate\api_externa_Compute1.esql.&#xA;Successfully added file Aggregate_Example\br\com\aggregate\api_externa_Compute1.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="br\com\aggregate\api_externa_Compute1.esql"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

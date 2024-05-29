@@ -1,24 +1,14 @@
 
 ==============================================
 
-!Tue May 28 11:16:24 BRT 2024
+!Tue May 28 11:42:56 BRT 2024
 
 Processing file XML_TO_JSON_JAVA\br\com\xml\to\json\java\XML_TO_JSON_JAVA.msgflow.
 Successfully added file XML_TO_JSON_JAVA\br\com\xml\to\json\java\XML_TO_JSON_JAVA.msgflow to BAR file.
 
 ==============================================
 
-!Tue May 28 11:16:24 BRT 2024
-
-Processing file XML_TO_JSON_JAVA\application.descriptor.
-Successfully added file XML_TO_JSON_JAVA\application.descriptor to BAR file.
-Elapsed time: 0,001 second(s).
-
-Successfully added file XML_TO_JSON_JAVA\application.descriptor to BAR file.
-
-==============================================
-
-!Tue May 28 11:16:24 BRT 2024
+!Tue May 28 11:42:58 BRT 2024
 
 Processing file XML_TO_JSON_JAVA\application.descriptor.
 Successfully added file XML_TO_JSON_JAVA\application.descriptor to BAR file.
@@ -28,8 +18,18 @@ Successfully added file XML_TO_JSON_JAVA\application.descriptor to BAR file.
 
 ==============================================
 
-!Tue May 28 11:16:26 BRT 2024
+!Tue May 28 11:42:58 BRT 2024
+
+Processing file XML_TO_JSON_JAVA\application.descriptor.
+Successfully added file XML_TO_JSON_JAVA\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file XML_TO_JSON_JAVA\application.descriptor to BAR file.
+
+==============================================
+
+!Tue May 28 11:42:59 BRT 2024
 
 Processing file XML_TO_JSON_JAVAJava\.classpath.
 Successfully added file XML_TO_JSON_JAVAJava\.classpath to BAR file.
-Elapsed time: 2,108 second(s).
+Elapsed time: 1,178 second(s).
