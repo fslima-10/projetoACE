@@ -1,0 +1,41 @@
+2024-05-31 14:31:37.399564Z: [Thread 6020] (Msg 1/1) BIP1990I: Servidor de integração 'TEST_SERVER2' iniciando a inicialização; versão '12.0.9.0' (64 bits) 
+2024-05-31 14:31:38.088092Z: [Thread 6020] (Msg 1/1) BIP9905I: Inicializando gerenciadores de recursos. 
+2024-05-31 14:31:59.052056Z: [Thread 6020] (Msg 1/1) BIP9906I: Lendo recursos implementados. 
+2024-05-31 14:31:59.092500Z: [Thread 6020] (Msg 1/1) BIP9907I: Inicializando recursos implementados. 
+2024-05-31 14:31:59.095184Z: [Thread 6020] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:31:59.116724Z: [Thread 6020] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-05-31 14:32:06.438750Z: [Thread 6020] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-05-31 14:32:06.439437Z: [Thread 6020] (Msg 1/1) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 14:32:06.439808Z: [Thread 6020] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:32:06.439889Z: [Thread 6020] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.aggregate.aggregate_http_request', 'br.com.aggregate.aggregate_http_request', encontrou uma falha e não pôde ser iniciado. 
+2024-05-31 14:32:06.439959Z: [Thread 6020] (Msg 2/2) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 14:32:06.440647Z: [Thread 6020] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:32:06.500457Z: [Thread 6020] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7801' para as conexões 'http'. 
+2024-05-31 14:32:06.500523Z: [Thread 6020] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate1'. 
+2024-05-31 14:32:06.501111Z: [Thread 6020] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate2'. 
+2024-05-31 14:32:06.501440Z: [Thread 6020] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:32:06.501637Z: [Thread 6020] (Msg 1/1) BIP9333W: Application 'Aggregate_Example' foi reloaded, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-05-31 14:32:06.501828Z: [Thread 6020] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:32:06.502481Z: [Thread 6020] (Msg 1/1) BIP2269I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:32:06.502921Z: [Thread 6020] (Msg 1/1) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 14:32:06.503277Z: [Thread 6020] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.api.cat.dog.api_cat_dog_request' (uuid='br.com.api.cat.dog.api_cat_dog_request',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:32:06.503333Z: [Thread 6020] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.api.cat.dog.api_cat_dog_request', 'br.com.api.cat.dog.api_cat_dog_request', encontrou uma falha e não pôde ser iniciado. 
+2024-05-31 14:32:06.503417Z: [Thread 6020] (Msg 2/2) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 14:32:06.503503Z: [Thread 6020] (Msg 1/1) BIP9333W: Application 'Aggregate_consumindo_api_cat_dog' foi reloaded, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-05-31 14:32:06.522057Z: [Thread 8920] (Msg 1/1) BIP2866I: A segurança de administração IBM App Connect Enterprise é inactive. 
+2024-05-31 14:32:06.594540Z: [Thread 8920] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7601' para as conexões 'RestAdmin http'. 
+2024-05-31 14:32:06.595407Z: [Thread 6020] (Msg 1/1) BIP1991I: O servidor de integração concluiu a inicialização. 
+2024-05-31 14:32:18.853398Z: [Thread 15312] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-05-31 14:32:18.999120Z: [Thread 15312] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:32:27.453306Z: [Thread 15312] (Msg 1/1) BIP2271I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:32:27.453494Z: [Thread 15312] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:32:27.493034Z: [Thread 15312] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:32:27.574030Z: [Thread 15312] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:32:27.574780Z: [Thread 15312] (Msg 1/1) BIP2269I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:32:27.575152Z: [Thread 15312] (Msg 1/1) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 14:32:27.575498Z: [Thread 15312] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.api.cat.dog.api_cat_dog_request' (uuid='br.com.api.cat.dog.api_cat_dog_request',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:32:27.575586Z: [Thread 15312] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.api.cat.dog.api_cat_dog_request', 'br.com.api.cat.dog.api_cat_dog_request', encontrou uma falha e não pôde ser iniciado. 
+2024-05-31 14:32:27.575630Z: [Thread 15312] (Msg 2/2) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 14:32:27.575792Z: [Thread 15312] (Msg 1/1) BIP9333W: Application 'Aggregate_consumindo_api_cat_dog' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-05-31 14:32:27.575914Z: [Thread 15312] (Msg 1/1) BIP1096E: A origem 'Aggregate_consumindo_api_cat_dogproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
+2024-05-31 14:32:27.576430Z: [Thread 15312] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 

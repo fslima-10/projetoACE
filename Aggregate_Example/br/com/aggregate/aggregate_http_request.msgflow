@@ -6,7 +6,7 @@
     <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/Aggregate_Example/icons/full/obj16/aggregate_http_request.gif"/>
     <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/Aggregate_Example/icons/full/obj30/aggregate_http_request.gif"/>
     <composition>
-      <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="43,131" URLSpecifier="/aggregate_principal" messageDomainProperty="JSON">
+      <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="43,131" URLSpecifier="/aggregate_principal" useHTTPS="true" messageDomainProperty="JSON">
         <translation xmi:type="utility:ConstantString" string="HTTP Input"/>
       </nodes>
       <nodes xmi:type="ComIbmAggregateControl.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="318,152" aggregateName="aggregate_control" timeoutInterval="500" timeoutLocation="$LocalEnvironment/Aggregation/Timeout">
@@ -33,7 +33,7 @@
     <propertyOrganizer/>
     <stickyBoard>
       <stickyNote location="329,300">
-        <body xmi:type="utility:ConstantString" string="Para juntar os resultados de várias api em uma única responde usamos o nó Aggregate.&#xA;Esse fluxo envolve dois Message Flow o primeiro que é esse aqui temos o Aggreate Control que faz o controle.&#xA;Depois temos os HTTP Request com as chamadas da api e um id único que será informado no outro message flow.&#xA;No outro messagem flow temos a entranda HTTP Response com o id único do HTTP Resquet e o Aggregate Reply com o código único do Agrregate Control.&#xA;Isso faz um amarração entre os fluxos o no computer é para formatar o responde.&#xA;"/>
+        <body xmi:type="utility:ConstantString" string="Para juntar os resultados de várias api em uma única resposta usamos o nó Aggregate.&#xA;Esse fluxo envolve dois Message Flow o primeiro que é esse aqui temos o Aggreate Control que faz o controle.&#xA;Depois temos os HTTP Request com as chamadas da api e um id único que será informado no outro message flow.&#xA;No outro messagem flow temos a entranda HTTP Response com o id único do HTTP Resquet e o Aggregate Reply com o código único do Agrregate Control.&#xA;Isso faz um amarração entre os fluxos o no computer é para formatar o responde.&#xA;"/>
       </stickyNote>
     </stickyBoard>
   </eClassifiers>

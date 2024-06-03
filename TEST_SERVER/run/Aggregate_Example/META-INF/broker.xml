@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-05-29 19:46:46">
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-06-03 14:06:43">
   <CompiledApplication>
     <ConfigurableProperty uri="startMode">
     </ConfigurableProperty>
   </CompiledApplication>
-  <CompiledMessageFlow name="br.com.aggregate.aggregator_collector" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-05-29 19:46:46">
+  <CompiledMessageFlow name="br.com.aggregate.aggregator_collector" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-06-03 14:06:43">
     <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#Aggregate Reply.aggregateName" override="aggregate_control">
     </ConfigurableProperty>
     <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#Compute.connectDatasourceBeforeFlowStarts">
@@ -60,7 +60,7 @@
     <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="br.com.aggregate.aggregate_http_request" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-05-29 19:46:46">
+  <CompiledMessageFlow name="br.com.aggregate.aggregate_http_request" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-06-03 14:06:43">
     <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#Aggregate Control.aggregateName" override="aggregate_control">
     </ConfigurableProperty>
     <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.AddRequestToGroup">
@@ -133,7 +133,7 @@
     </ConfigurableProperty>
     <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.timeoutForClient">
     </ConfigurableProperty>
-    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.useHTTPS">
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.useHTTPS" override="yes">
     </ConfigurableProperty>
     <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.validateMaster">
     </ConfigurableProperty>
@@ -172,7 +172,7 @@
     <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="br.com.aggregate.api_externa" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-05-29 19:46:46">
+  <CompiledMessageFlow name="br.com.aggregate.api_externa" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-06-03 14:06:43">
     <ConfigurableProperty uri="br.com.aggregate.api_externa#Compute.connectDatasourceBeforeFlowStarts">
     </ConfigurableProperty>
     <ConfigurableProperty uri="br.com.aggregate.api_externa#Compute.dataSource">

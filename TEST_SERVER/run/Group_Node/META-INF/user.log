@@ -1,0 +1,55 @@
+
+==============================================
+
+!Mon Jun 03 14:19:34 BRT 2024
+
+Processing file Group_Node\br\com\group\request01.msgflow.
+Successfully added file Group_Node\br\com\group\request01.msgflow to BAR file.
+
+==============================================
+
+!Mon Jun 03 14:19:34 BRT 2024
+
+Processing file Group_Node\br\com\group\Group_Scatter.msgflow.
+Successfully added file Group_Node\br\com\group\Group_Scatter.msgflow to BAR file.
+
+==============================================
+
+!Mon Jun 03 14:19:34 BRT 2024
+
+Processing file Group_Node\br\com\group\Group_Gather.msgflow.
+Successfully added file Group_Node\br\com\group\Group_Gather.msgflow to BAR file.
+
+==============================================
+
+!Mon Jun 03 14:19:34 BRT 2024
+
+Processing file Group_Node\application.descriptor.
+Successfully added file Group_Node\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file Group_Node\application.descriptor to BAR file.
+
+==============================================
+
+!Mon Jun 03 14:19:34 BRT 2024
+
+Processing file Group_Node\application.descriptor.
+Successfully added file Group_Node\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file Group_Node\application.descriptor to BAR file.
+
+==============================================
+
+!Mon Jun 03 14:19:34 BRT 2024
+
+Processing file Group_Node\br\com\group\Group_Gather_Compute.esql.
+Successfully added file Group_Node\br\com\group\Group_Gather_Compute.esql to BAR file.
+
+==============================================
+
+!Mon Jun 03 14:19:34 BRT 2024
+
+Processing file Group_Node\br\com\group\request01_Compute.esql.
+Successfully added file Group_Node\br\com\group\request01_Compute.esql to BAR file.

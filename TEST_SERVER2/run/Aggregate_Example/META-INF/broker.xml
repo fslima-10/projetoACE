@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-05-31 14:30:14">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.aggregate.aggregator_collector" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-05-31 14:30:14">
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#Aggregate Reply.aggregateName" override="aggregate_control">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#HTTP Async Response.asyncRequestCorrelator" override="api1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#HTTP Async Response.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#HTTP Async Response1.asyncRequestCorrelator" override="api2">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#HTTP Async Response1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregator_collector#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="br.com.aggregate.aggregate_http_request" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-05-31 14:30:14">
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#Aggregate Control.aggregateName" override="aggregate_control">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.URLSpecifier" override="http://localhost:7800/aggregate1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.acceptCompressedResponses">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.asyncResponseCorrelator" override="api1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.protocol">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request.timeoutForServer" override="500">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.URLSpecifier" override="http://localhost:7800/aggregate2">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.acceptCompressedResponses">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.asyncResponseCorrelator" override="api2">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.protocol">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Async Request1.timeoutForServer" override="500">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.URLSpecifier" override="/aggregate_principal">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.useHTTPS" override="yes">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.aggregate_http_request#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="br.com.aggregate.api_externa" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_Exampleproject.generated.bar" deployTimestamp="2024-05-31 14:30:14">
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#Compute1.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#Compute1.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#Compute1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input.URLSpecifier" override="/aggregate1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input1.URLSpecifier" override="/aggregate2">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input1.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input1.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input1.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input1.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input1.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Input1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.api_externa#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

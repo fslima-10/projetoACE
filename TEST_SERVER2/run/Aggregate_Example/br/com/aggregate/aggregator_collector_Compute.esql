@@ -1,0 +1,37 @@
+BROKER SCHEMA br.com.aggregate
+
+
+CREATE COMPUTE MODULE aggregator_collector_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		 CALL CopyMessageHeaders();
+		 DECLARE cliente REFERENCE to InputRoot.ComIbmAggregateReplyBody.Customer.JSON.Data.Customer;
+		 DECLARE profissao REFERENCE to InputRoot.ComIbmAggregateReplyBody.Profissao.JSON.Data.Profissao;
+		 
+		SET OutputRoot.JSON.Data.Cliente.name = cliente.name;	
+		SET OutputRoot.JSON.Data.Cliente.ID = cliente.ID;
+		SET OutputRoot.JSON.Data.Cliente.amount = cliente.amount;
+		SET OutputRoot.JSON.Data.Cliente.paymentType = cliente.paymentType;
+		
+		SET OutputRoot.JSON.Data.Profissao.nome = profissao.nome;
+		SET OutputRoot.JSON.Data.Profissao.empresa = profissao.empresa;
+		SET OutputRoot.JSON.Data.Profissao.Tempo = profissao.Tempo;
+		SET OutputRoot.JSON.Data.Profissao.salario = profissao.salario;
+		
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;

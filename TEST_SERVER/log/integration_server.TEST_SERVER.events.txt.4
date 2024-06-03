@@ -1,318 +1,182 @@
-2024-05-29 15:08:56.129852Z: [Thread 1932] (Msg 1/1) BIP1990I: Servidor de integração 'TEST_SERVER' iniciando a inicialização; versão '12.0.9.0' (64 bits) 
-2024-05-29 15:08:56.174200Z: [Thread 1932] (Msg 1/1) BIP9905I: Inicializando gerenciadores de recursos. 
-2024-05-29 15:09:34.608480Z: [Thread 1932] (Msg 1/1) BIP9906I: Lendo recursos implementados. 
-2024-05-29 15:09:35.744244Z: [Thread 1932] (Msg 1/1) BIP9907I: Inicializando recursos implementados. 
-2024-05-29 15:09:35.749340Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
-2024-05-29 15:09:35.750860Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
-2024-05-29 15:09:35.751164Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'static' do tipo 'StaticLibrary'. 
-2024-05-29 15:09:35.909604Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
-2024-05-29 15:09:36.064212Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'COBOLMessageModel' do tipo 'SharedLibrary'. 
-2024-05-29 15:09:36.065404Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
-2024-05-29 15:09:37.411840Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSVMessageModelling' do tipo 'SharedLibrary'. 
-2024-05-29 15:09:37.413080Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSV_AULA30_CSV_TO_PIPED' do tipo 'SharedLibrary'. 
-2024-05-29 15:09:37.414256Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
-2024-05-29 15:09:37.469528Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
-2024-05-29 15:09:37.508952Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
-2024-05-29 15:09:37.554596Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
-2024-05-29 15:09:37.602068Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
-2024-05-29 15:09:37.650500Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML2CSV_TRANSFROM' do tipo 'SharedLibrary'. 
-2024-05-29 15:09:37.651668Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
-2024-05-29 15:09:37.690584Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
-2024-05-29 15:09:37.725472Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
-2024-05-29 15:09:38.768512Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
-2024-05-29 15:09:53.786108Z: [Thread 1932] (Msg 1/1) BIP9332I: SharedLibrary 'COBOLMessageModel' foi reloaded com êxito. 
-2024-05-29 15:09:53.786296Z: [Thread 1932] (Msg 1/1) BIP9332I: SharedLibrary 'CSVMessageModelling' foi reloaded com êxito. 
-2024-05-29 15:09:53.786472Z: [Thread 1932] (Msg 1/1) BIP9332I: SharedLibrary 'CSV_AULA30_CSV_TO_PIPED' foi reloaded com êxito. 
-2024-05-29 15:09:53.786660Z: [Thread 1932] (Msg 1/1) BIP9332I: SharedLibrary 'XML2CSV_TRANSFROM' foi reloaded com êxito. 
-2024-05-29 15:09:53.786812Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
-2024-05-29 15:09:53.853960Z: [Thread 1932] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7800' para as conexões 'http'. 
-2024-05-29 15:09:53.854084Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/cobol_to_csv'. 
-2024-05-29 15:09:53.854536Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.cobol.to.csv.COBOL_TO_CSV' (uuid='br.com.cobol.to.csv.COBOL_TO_CSV',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.854660Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'COBOL_TO_CSV' foi reloaded com êxito. 
-2024-05-29 15:09:53.854760Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
-2024-05-29 15:09:53.855624Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/csvtopipedcomputer'. 
-2024-05-29 15:09:53.855996Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER' (uuid='br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.856568Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/csvtopipedmap'. 
-2024-05-29 15:09:53.856788Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.csv.to.piped.map.CSV_TO_PIPED_MAP' (uuid='br.com.csv.to.piped.map.CSV_TO_PIPED_MAP',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.856916Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'CSV_TO_PIPED_MAP_AULA_30' foi reloaded com êxito. 
-2024-05-29 15:09:53.857052Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
-2024-05-29 15:09:53.857792Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/filter_example'. 
-2024-05-29 15:09:53.858108Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.filter.FILTER' (uuid='br.com.filter.FILTER',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.858240Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'FILTER_EXAMPLE' foi reloaded com êxito. 
-2024-05-29 15:09:53.858360Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
-2024-05-29 15:09:53.859024Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/json_to_csv'. 
-2024-05-29 15:09:53.859316Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.json.csv.JSON_to_CSV' (uuid='br.com.json.csv.JSON_to_CSV',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.859424Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'JSON_to_CSV' foi reloaded com êxito. 
-2024-05-29 15:09:53.859584Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
-2024-05-29 15:09:53.860236Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/route'. 
-2024-05-29 15:09:53.860584Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.route.ROUTE_EXAMPLE' (uuid='br.com.route.ROUTE_EXAMPLE',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.860684Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'ROUTE_EXAMPLE' foi reloaded com êxito. 
-2024-05-29 15:09:53.860828Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
-2024-05-29 15:09:53.861480Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/route_to_label'. 
-2024-05-29 15:09:53.861796Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE' (uuid='br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.861880Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'ROUTE_TO_LABEL_NODE' foi reloaded com êxito. 
-2024-05-29 15:09:53.862032Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
-2024-05-29 15:09:53.862576Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml2csv'. 
-2024-05-29 15:09:53.862836Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.treino.XML_2_CSV_FLOW' (uuid='br.com.treino.XML_2_CSV_FLOW',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.863012Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'XML_CSV_COMPUTER' foi reloaded com êxito. 
-2024-05-29 15:09:53.863140Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
-2024-05-29 15:09:53.863660Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml_to_json_java'. 
-2024-05-29 15:09:53.864004Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.json.java.XML_TO_JSON_JAVA' (uuid='br.com.xml.to.json.java.XML_TO_JSON_JAVA',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.864100Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'XML_TO_JSON_JAVA' foi reloaded com êxito. 
-2024-05-29 15:09:53.864228Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
-2024-05-29 15:09:53.864844Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml_to_json'. 
-2024-05-29 15:09:53.865092Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.json.XML_to_JSON' (uuid='br.com.xml.to.json.XML_to_JSON',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.865188Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'XML_to_JSON' foi reloaded com êxito. 
-2024-05-29 15:09:53.865284Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
-2024-05-29 15:09:53.865796Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xmlTo/xml'. 
-2024-05-29 15:09:53.866104Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.xml.xml_to_xml_using_xslt' (uuid='br.com.xml.to.xml.xml_to_xml_using_xslt',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.866204Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'XML_to_XML_Using_XSLY' foi reloaded com êxito. 
-2024-05-29 15:09:53.866348Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
-2024-05-29 15:09:53.866888Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/chamandoConsultaCliente'. 
-2024-05-29 15:09:53.867108Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.consultando.api.externa.consultaAPI' (uuid='br.com.consultando.api.externa.consultaAPI',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.867656Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/estudoACE/consultaAPIExterna'. 
-2024-05-29 15:09:53.867876Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.consultando.api.externa.consultandoAPIExterna' (uuid='br.com.consultando.api.externa.consultandoAPIExterna',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.867976Z: [Thread 1932] (Msg 1/1) BIP9332I: Application 'chamandoAPIExterna' foi reloaded com êxito. 
-2024-05-29 15:09:53.868088Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
-2024-05-29 15:09:53.868480Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/jsonparaxml'. 
-2024-05-29 15:09:53.868676Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'Json_Para_XML' (uuid='Json_Para_XML',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.869324Z: [Thread 1932] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aplicacao_rest/v1*'. 
-2024-05-29 15:09:53.869680Z: [Thread 1932] (Msg 1/1) BIP2269I: Recurso implementado 'gen.Aplicacao_REST' (uuid='gen.Aplicacao_REST',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 15:09:53.869788Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
-2024-05-29 15:09:53.869896Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'static' do tipo 'StaticLibrary'. 
-2024-05-29 15:09:53.869992Z: [Thread 1932] (Msg 1/1) BIP9332I: RestAPI 'Aplicacao_REST' foi reloaded com êxito. 
-2024-05-29 15:09:53.903096Z: [Thread 3188] (Msg 1/1) BIP2866I: A segurança de administração IBM App Connect Enterprise é inactive. 
-2024-05-29 15:09:54.040680Z: [Thread 3188] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7600' para as conexões 'RestAdmin http'. 
-2024-05-29 15:09:54.042060Z: [Thread 1932] (Msg 1/1) BIP1991I: O servidor de integração concluiu a inicialização. 
-2024-05-29 15:10:39.891816Z: [Thread 10128] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:10:39.949100Z: [Thread 10128] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:10:39.964412Z: [Thread 10128] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:10:39.964548Z: [Thread 10128] (Msg 1/1) BIP9332I: Application 'CollectorNode' foi created com êxito. 
-2024-05-29 15:10:39.964620Z: [Thread 10128] (Msg 1/1) BIP9326I: A origem 'CollectorNodeproject.generated.bar' foi implementada com êxito. 
-2024-05-29 15:10:39.965044Z: [Thread 10128] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:12:54.228412Z: [Thread 260] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:12:54.261140Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:12:54.261276Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:12:54.355960Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:12:54.370996Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:12:54.371200Z: [Thread 260] (Msg 1/1) BIP9332I: Application 'CollectorNode' foi changed com êxito. 
-2024-05-29 15:12:54.371300Z: [Thread 260] (Msg 1/1) BIP9326I: A origem 'CollectorNodeproject.generated.bar' foi implementada com êxito. 
-2024-05-29 15:12:54.371776Z: [Thread 260] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:13:44.383088Z: [Thread 13040] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:13:44.410492Z: [Thread 13040] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:13:44.410632Z: [Thread 13040] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:13:44.457604Z: [Thread 13040] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:13:44.471408Z: [Thread 13040] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:13:44.471548Z: [Thread 13040] (Msg 1/1) BIP9332I: Application 'CollectorNode' foi changed com êxito. 
-2024-05-29 15:13:44.471612Z: [Thread 13040] (Msg 1/1) BIP9326I: A origem 'CollectorNodeproject.generated.bar' foi implementada com êxito. 
-2024-05-29 15:13:44.471976Z: [Thread 13040] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:15:07.506279Z: [Thread 12352] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:15:07.539251Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:15:07.539392Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:15:07.589747Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:15:07.603831Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:15:07.604037Z: [Thread 12352] (Msg 1/1) BIP9332I: Application 'CollectorNode' foi changed com êxito. 
-2024-05-29 15:15:07.604125Z: [Thread 12352] (Msg 1/1) BIP9326I: A origem 'CollectorNodeproject.generated.bar' foi implementada com êxito. 
-2024-05-29 15:15:07.604532Z: [Thread 12352] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:15:44.007844Z: [Thread 8156] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:15:44.041996Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:15:44.042132Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:15:44.090392Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:15:44.107560Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:15:44.107764Z: [Thread 8156] (Msg 1/1) BIP9332I: Application 'CollectorNode' foi changed com êxito. 
-2024-05-29 15:15:44.107872Z: [Thread 8156] (Msg 1/1) BIP9326I: A origem 'CollectorNodeproject.generated.bar' foi implementada com êxito. 
-2024-05-29 15:15:44.108484Z: [Thread 8156] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:17:06.837809Z: [Thread 10128] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:17:06.907458Z: [Thread 10128] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:17:06.907592Z: [Thread 10128] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:17:06.936442Z: [Thread 10128] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:17:07.029155Z: [Thread 10128] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:17:07.029213Z: [Thread 10128] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:17:07.047914Z: [Thread 10128] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:17:07.048314Z: [Thread 10128] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:17:07.048423Z: [Thread 10128] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:17:07.048888Z: [Thread 10128] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:17:32.550640Z: [Thread 12352] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:17:32.616966Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:17:32.617112Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:17:32.668618Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:17:32.671536Z: [Thread 12352] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:17:32.671588Z: [Thread 12352] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:17:32.687900Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:17:32.688152Z: [Thread 12352] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:17:32.688282Z: [Thread 12352] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:17:32.688762Z: [Thread 12352] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:18:35.482352Z: [Thread 260] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:18:35.538140Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:18:35.538280Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:18:35.583980Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:18:35.586168Z: [Thread 260] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:18:35.586212Z: [Thread 260] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:18:35.604148Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:18:35.604372Z: [Thread 260] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:18:35.604492Z: [Thread 260] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:18:35.605048Z: [Thread 260] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:25:11.623138Z: [Thread 8156] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:25:11.699806Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:25:11.699944Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:25:11.738183Z: [Thread 8156] (Msg 1/1) BIP1361E: O nó do fluxo de mensagens 'MQ Input', 'br.com.collector.Collector#FCMComposite_1_9', no fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', requer a Política 'Default' do tipo 'MQEndpoint' que não está implementada. 
-2024-05-29 15:25:11.738252Z: [Thread 8156] (Msg 1/1) BIP1361E: O nó do fluxo de mensagens 'MQ Input1', 'br.com.collector.Collector#FCMComposite_1_10', no fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', requer a Política 'Default' do tipo 'MQEndpoint' que não está implementada. 
-2024-05-29 15:25:11.739000Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:25:11.739085Z: [Thread 8156] (Msg 1/1) BIP9324W: A solicitação para 'Initialize' o recurso implementado 'CollectorNode' do tipo 'Application' falhou. 
-2024-05-29 15:25:11.739127Z: [Thread 8156] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:25:11.739609Z: [Thread 8156] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:25:38.495168Z: [Thread 9808] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:25:38.574384Z: [Thread 9808] (Msg 1/1) BIP1361E: O nó do fluxo de mensagens 'MQ Input', 'br.com.collector.Collector#FCMComposite_1_9', no fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', requer a Política '{MQPolicyProject}:MQPolicy1' do tipo 'MQEndpoint' que não está implementada. 
-2024-05-29 15:25:38.574448Z: [Thread 9808] (Msg 1/1) BIP1361E: O nó do fluxo de mensagens 'MQ Input1', 'br.com.collector.Collector#FCMComposite_1_10', no fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', requer a Política '{MQPolicyProject}:MQPolicy1' do tipo 'MQEndpoint' que não está implementada. 
-2024-05-29 15:25:38.575184Z: [Thread 9808] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:25:38.575260Z: [Thread 9808] (Msg 1/1) BIP9324W: A solicitação para 'Initialize' o recurso implementado 'CollectorNode' do tipo 'Application' falhou. 
-2024-05-29 15:25:38.575300Z: [Thread 9808] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:25:38.575664Z: [Thread 9808] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:27:21.611818Z: [Thread 8156] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:27:21.660386Z: [Thread 8156] (Msg 1/1) BIP1361E: O nó do fluxo de mensagens 'MQ Input', 'br.com.collector.Collector#FCMComposite_1_9', no fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', requer a Política '{MQPolicyProject}:MQPolicy1' do tipo 'MQEndpoint' que não está implementada. 
-2024-05-29 15:27:21.660452Z: [Thread 8156] (Msg 1/1) BIP1361E: O nó do fluxo de mensagens 'MQ Input1', 'br.com.collector.Collector#FCMComposite_1_10', no fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', requer a Política '{MQPolicyProject}:MQPolicy1' do tipo 'MQEndpoint' que não está implementada. 
-2024-05-29 15:27:21.661214Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:27:21.661290Z: [Thread 8156] (Msg 1/1) BIP9324W: A solicitação para 'Initialize' o recurso implementado 'CollectorNode' do tipo 'Application' falhou. 
-2024-05-29 15:27:21.661328Z: [Thread 8156] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:27:21.661714Z: [Thread 8156] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:29:02.233719Z: [Thread 9808] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:29:02.305429Z: [Thread 9808] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:29:02.334517Z: [Thread 9808] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:29:02.334580Z: [Thread 9808] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:29:02.353122Z: [Thread 9808] (Msg 1/1) BIP9332I: PolicyProject 'MQPolicyProject' foi created com êxito. 
-2024-05-29 15:29:02.353382Z: [Thread 9808] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:29:02.353600Z: [Thread 9808] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi reloaded, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:29:02.353679Z: [Thread 9808] (Msg 1/1) BIP1096E: A origem 'MQPolicyProjectproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:29:02.354237Z: [Thread 9808] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:29:21.966222Z: [Thread 12352] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:29:22.020760Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:29:22.020890Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:29:22.053056Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:29:22.055114Z: [Thread 12352] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:29:22.055156Z: [Thread 12352] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:29:22.070208Z: [Thread 12352] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:29:22.070492Z: [Thread 12352] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:29:22.070578Z: [Thread 12352] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:29:22.071038Z: [Thread 12352] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:32:07.815075Z: [Thread 4204] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:32:07.880041Z: [Thread 4204] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:32:07.880196Z: [Thread 4204] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:32:07.914042Z: [Thread 4204] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:32:07.917331Z: [Thread 4204] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:32:07.917417Z: [Thread 4204] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:32:07.935720Z: [Thread 4204] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:32:07.935984Z: [Thread 4204] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:32:07.936059Z: [Thread 4204] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:32:07.936458Z: [Thread 4204] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:32:54.412644Z: [Thread 260] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:32:54.474180Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:32:54.474324Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:32:54.521008Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:32:54.523616Z: [Thread 260] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:32:54.523672Z: [Thread 260] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:32:54.540640Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:32:54.540896Z: [Thread 260] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:32:54.541008Z: [Thread 260] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:32:54.541504Z: [Thread 260] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:34:19.610962Z: [Thread 1728] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:34:19.664630Z: [Thread 1728] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:34:19.664768Z: [Thread 1728] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:34:19.715708Z: [Thread 1728] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:34:19.718382Z: [Thread 1728] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:34:19.718434Z: [Thread 1728] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:34:19.735868Z: [Thread 1728] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:34:19.736150Z: [Thread 1728] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:34:19.736266Z: [Thread 1728] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:34:19.736758Z: [Thread 1728] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:37:03.302583Z: [Thread 8156] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:37:03.371546Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:37:03.371708Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:37:03.412519Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:37:03.416357Z: [Thread 8156] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:37:03.416411Z: [Thread 8156] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:37:03.433210Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:37:03.433503Z: [Thread 8156] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:37:03.433624Z: [Thread 8156] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:37:03.434218Z: [Thread 8156] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:38:26.476930Z: [Thread 8156] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:38:26.534808Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:38:26.534960Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:38:26.568548Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:38:26.571206Z: [Thread 8156] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:38:26.571250Z: [Thread 8156] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:38:26.588534Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:38:26.588806Z: [Thread 8156] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:38:26.588952Z: [Thread 8156] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:38:26.589394Z: [Thread 8156] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 15:41:43.556808Z: [Thread 8156] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 15:41:43.638620Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:41:43.638768Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:41:43.682716Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:41:43.685764Z: [Thread 8156] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 15:41:43.685816Z: [Thread 8156] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 15:41:43.702188Z: [Thread 8156] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 15:41:43.702504Z: [Thread 8156] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 15:41:43.702588Z: [Thread 8156] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 15:41:43.702996Z: [Thread 8156] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 16:01:00.823973Z: [Thread 260] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 16:01:00.905902Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 16:01:00.906049Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 16:01:00.938643Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 16:01:00.941773Z: [Thread 260] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.collector.Collector', 'br.com.collector.Collector', encontrou uma falha e não pôde ser iniciado. 
-2024-05-29 16:01:00.941830Z: [Thread 260] (Msg 2/2) BIP2685E: O nó do tipo 'Collector' denominado 'Collector' requer que um gerenciador de filas seja especificado no nó de integração. 
-2024-05-29 16:01:00.984098Z: [Thread 260] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 16:01:00.984404Z: [Thread 260] (Msg 1/1) BIP9333W: Application 'CollectorNode' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
-2024-05-29 16:01:00.984479Z: [Thread 260] (Msg 1/1) BIP1096E: A origem 'CollectorNodeproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
-2024-05-29 16:01:00.985020Z: [Thread 260] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 16:15:18.357830Z: [Thread 1932] (Msg 1/1) BIP1989I: O Integration Server está finalizando devido a um evento de encerramento. 
-2024-05-29 16:15:18.371088Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
-2024-05-29 16:15:18.371362Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
-2024-05-29 16:15:18.371632Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 16:15:18.371784Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
-2024-05-29 16:15:18.371968Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
-2024-05-29 16:15:18.372166Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
-2024-05-29 16:15:18.372362Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
-2024-05-29 16:15:18.372568Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
-2024-05-29 16:15:18.372760Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
-2024-05-29 16:15:18.373004Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
-2024-05-29 16:15:18.373204Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
-2024-05-29 16:15:18.373382Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
-2024-05-29 16:15:18.373706Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
-2024-05-29 16:15:18.373992Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
-2024-05-29 16:15:18.374112Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'static' do tipo 'StaticLibrary'. 
-2024-05-29 16:15:21.526330Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.cobol.to.csv.COBOL_TO_CSV' (uuid='br.com.cobol.to.csv.COBOL_TO_CSV',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.526548Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER' (uuid='br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.526740Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.csv.to.piped.map.CSV_TO_PIPED_MAP' (uuid='br.com.csv.to.piped.map.CSV_TO_PIPED_MAP',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.526998Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.filter.FILTER' (uuid='br.com.filter.FILTER',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.652292Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.json.csv.JSON_to_CSV' (uuid='br.com.json.csv.JSON_to_CSV',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.652604Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.route.ROUTE_EXAMPLE' (uuid='br.com.route.ROUTE_EXAMPLE',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.652832Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE' (uuid='br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.653032Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.treino.XML_2_CSV_FLOW' (uuid='br.com.treino.XML_2_CSV_FLOW',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.653308Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.xml.to.json.java.XML_TO_JSON_JAVA' (uuid='br.com.xml.to.json.java.XML_TO_JSON_JAVA',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.653536Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.xml.to.json.XML_to_JSON' (uuid='br.com.xml.to.json.XML_to_JSON',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.653712Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.xml.to.xml.xml_to_xml_using_xslt' (uuid='br.com.xml.to.xml.xml_to_xml_using_xslt',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.653956Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.consultando.api.externa.consultaAPI' (uuid='br.com.consultando.api.externa.consultaAPI',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.869992Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.consultando.api.externa.consultandoAPIExterna' (uuid='br.com.consultando.api.externa.consultandoAPIExterna',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.870218Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'Json_Para_XML' (uuid='Json_Para_XML',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:21.870684Z: [Thread 1932] (Msg 1/1) BIP2271I: Recurso implementado 'gen.Aplicacao_REST' (uuid='gen.Aplicacao_REST',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 16:15:23.025500Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
-2024-05-29 16:15:23.063908Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'COBOLMessageModel' do tipo 'SharedLibrary'. 
-2024-05-29 16:15:23.084766Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CSVMessageModelling' do tipo 'SharedLibrary'. 
-2024-05-29 16:15:23.091906Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
-2024-05-29 16:15:23.168084Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CSV_AULA30_CSV_TO_PIPED' do tipo 'SharedLibrary'. 
-2024-05-29 16:15:23.174316Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
-2024-05-29 16:15:23.199248Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
-2024-05-29 16:15:23.219744Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML2CSV_TRANSFROM' do tipo 'SharedLibrary'. 
-2024-05-29 16:15:23.235158Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
-2024-05-29 16:15:23.282802Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
-2024-05-29 16:15:23.282882Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'static' do tipo 'StaticLibrary'. 
-2024-05-29 16:15:23.283012Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 16:15:23.298198Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
-2024-05-29 16:15:23.313294Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
-2024-05-29 16:15:23.352870Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
-2024-05-29 16:15:23.376062Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
-2024-05-29 16:15:23.415544Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
-2024-05-29 16:15:23.438052Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
-2024-05-29 16:15:23.477774Z: [Thread 1932] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
-2024-05-29 16:15:23.525500Z: [Thread 1932] (Msg 1/1) BIP3133I: O Listener HTTP parou o listening na porta '7800' para as conexões 'http'. 
-2024-05-29 16:15:28.713628Z: [Thread 1932] (Msg 1/1) BIP1992I: O servidor de integração 'TEST_SERVER' foi interrompido. 
+2024-05-31 14:21:05.594883Z: [Thread 15112] (Msg 1/1) BIP1990I: Servidor de integração 'TEST_SERVER' iniciando a inicialização; versão '12.0.9.0' (64 bits) 
+2024-05-31 14:21:06.237973Z: [Thread 15112] (Msg 1/1) BIP9905I: Inicializando gerenciadores de recursos. 
+2024-05-31 14:21:11.186408Z: [Thread 15112] (Msg 1/1) BIP9906I: Lendo recursos implementados. 
+2024-05-31 14:21:11.297211Z: [Thread 15112] (Msg 1/1) BIP9907I: Inicializando recursos implementados. 
+2024-05-31 14:21:11.302331Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:21:11.323163Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-05-31 14:21:11.358591Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-05-31 14:21:11.358771Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-05-31 14:21:11.358933Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-05-31 14:21:11.404886Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
+2024-05-31 14:21:11.447189Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'COBOLMessageModel' do tipo 'SharedLibrary'. 
+2024-05-31 14:21:11.448929Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
+2024-05-31 14:21:11.690653Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
+2024-05-31 14:21:11.780513Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSVMessageModelling' do tipo 'SharedLibrary'. 
+2024-05-31 14:21:11.781902Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSV_AULA30_CSV_TO_PIPED' do tipo 'SharedLibrary'. 
+2024-05-31 14:21:11.783161Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
+2024-05-31 14:21:11.820079Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
+2024-05-31 14:21:11.838533Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
+2024-05-31 14:21:11.862960Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
+2024-05-31 14:21:11.883068Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
+2024-05-31 14:21:11.908968Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML2CSV_TRANSFROM' do tipo 'SharedLibrary'. 
+2024-05-31 14:21:11.910153Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
+2024-05-31 14:21:11.928802Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
+2024-05-31 14:21:11.954434Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
+2024-05-31 14:21:11.985859Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
+2024-05-31 14:21:14.933106Z: [Thread 15112] (Msg 1/1) BIP9332I: PolicyProject 'MQPolicyProject' foi reloaded com êxito. 
+2024-05-31 14:21:14.933352Z: [Thread 15112] (Msg 1/1) BIP9332I: SharedLibrary 'COBOLMessageModel' foi reloaded com êxito. 
+2024-05-31 14:21:14.933619Z: [Thread 15112] (Msg 1/1) BIP9332I: SharedLibrary 'CSVMessageModelling' foi reloaded com êxito. 
+2024-05-31 14:21:14.933817Z: [Thread 15112] (Msg 1/1) BIP9332I: SharedLibrary 'CSV_AULA30_CSV_TO_PIPED' foi reloaded com êxito. 
+2024-05-31 14:21:14.933997Z: [Thread 15112] (Msg 1/1) BIP9332I: SharedLibrary 'XML2CSV_TRANSFROM' foi reloaded com êxito. 
+2024-05-31 14:21:14.934146Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-05-31 14:21:14.994945Z: [Thread 15112] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7800' para as conexões 'http'. 
+2024-05-31 14:21:14.995094Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate_principal'. 
+2024-05-31 14:21:14.995476Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:14.996249Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:14.996922Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate1'. 
+2024-05-31 14:21:14.997417Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate2'. 
+2024-05-31 14:21:14.997680Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:14.997780Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'Aggregate_Example' foi reloaded com êxito. 
+2024-05-31 14:21:14.997930Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:21:14.998567Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:14.999550Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/consulta_cat_dog'. 
+2024-05-31 14:21:15.000240Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.api.cat.dog.api_cat_dog_request' (uuid='br.com.api.cat.dog.api_cat_dog_request',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.000327Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'Aggregate_consumindo_api_cat_dog' foi reloaded com êxito. 
+2024-05-31 14:21:15.000481Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
+2024-05-31 14:21:15.001064Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/cobol_to_csv'. 
+2024-05-31 14:21:15.001430Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.cobol.to.csv.COBOL_TO_CSV' (uuid='br.com.cobol.to.csv.COBOL_TO_CSV',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.001520Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'COBOL_TO_CSV' foi reloaded com êxito. 
+2024-05-31 14:21:15.001634Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
+2024-05-31 14:21:15.002441Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/csvtopipedcomputer'. 
+2024-05-31 14:21:15.002838Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER' (uuid='br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.003470Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/csvtopipedmap'. 
+2024-05-31 14:21:15.003769Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.csv.to.piped.map.CSV_TO_PIPED_MAP' (uuid='br.com.csv.to.piped.map.CSV_TO_PIPED_MAP',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.003883Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'CSV_TO_PIPED_MAP_AULA_30' foi reloaded com êxito. 
+2024-05-31 14:21:15.004096Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
+2024-05-31 14:21:15.005061Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.collector.Collector' (uuid='br.com.collector.Collector',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.005174Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'CollectorNode' foi reloaded com êxito. 
+2024-05-31 14:21:15.005322Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
+2024-05-31 14:21:15.005950Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/filter_example'. 
+2024-05-31 14:21:15.006298Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.filter.FILTER' (uuid='br.com.filter.FILTER',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.006396Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'FILTER_EXAMPLE' foi reloaded com êxito. 
+2024-05-31 14:21:15.006544Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
+2024-05-31 14:21:15.007099Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/json_to_csv'. 
+2024-05-31 14:21:15.007356Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.json.csv.JSON_to_CSV' (uuid='br.com.json.csv.JSON_to_CSV',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.007463Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'JSON_to_CSV' foi reloaded com êxito. 
+2024-05-31 14:21:15.007611Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
+2024-05-31 14:21:15.008285Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/route'. 
+2024-05-31 14:21:15.008580Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.route.ROUTE_EXAMPLE' (uuid='br.com.route.ROUTE_EXAMPLE',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.008676Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'ROUTE_EXAMPLE' foi reloaded com êxito. 
+2024-05-31 14:21:15.008825Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
+2024-05-31 14:21:15.009330Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/route_to_label'. 
+2024-05-31 14:21:15.009605Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE' (uuid='br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.009698Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'ROUTE_TO_LABEL_NODE' foi reloaded com êxito. 
+2024-05-31 14:21:15.009886Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
+2024-05-31 14:21:15.010394Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml2csv'. 
+2024-05-31 14:21:15.010585Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.treino.XML_2_CSV_FLOW' (uuid='br.com.treino.XML_2_CSV_FLOW',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.010686Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'XML_CSV_COMPUTER' foi reloaded com êxito. 
+2024-05-31 14:21:15.010787Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
+2024-05-31 14:21:15.011342Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml_to_json_java'. 
+2024-05-31 14:21:15.011604Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.json.java.XML_TO_JSON_JAVA' (uuid='br.com.xml.to.json.java.XML_TO_JSON_JAVA',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.011688Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'XML_TO_JSON_JAVA' foi reloaded com êxito. 
+2024-05-31 14:21:15.011833Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
+2024-05-31 14:21:15.012270Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml_to_json'. 
+2024-05-31 14:21:15.012455Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.json.XML_to_JSON' (uuid='br.com.xml.to.json.XML_to_JSON',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.012551Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'XML_to_JSON' foi reloaded com êxito. 
+2024-05-31 14:21:15.012676Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
+2024-05-31 14:21:15.013236Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xmlTo/xml'. 
+2024-05-31 14:21:15.013478Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.xml.xml_to_xml_using_xslt' (uuid='br.com.xml.to.xml.xml_to_xml_using_xslt',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.013599Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'XML_to_XML_Using_XSLY' foi reloaded com êxito. 
+2024-05-31 14:21:15.013739Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
+2024-05-31 14:21:15.014309Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/chamandoConsultaCliente'. 
+2024-05-31 14:21:15.014515Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.consultando.api.externa.consultaAPI' (uuid='br.com.consultando.api.externa.consultaAPI',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.015051Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/estudoACE/consultaAPIExterna'. 
+2024-05-31 14:21:15.015288Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.consultando.api.externa.consultandoAPIExterna' (uuid='br.com.consultando.api.externa.consultandoAPIExterna',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.015359Z: [Thread 15112] (Msg 1/1) BIP9332I: Application 'chamandoAPIExterna' foi reloaded com êxito. 
+2024-05-31 14:21:15.015495Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-05-31 14:21:15.015973Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/jsonparaxml'. 
+2024-05-31 14:21:15.016152Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'Json_Para_XML' (uuid='Json_Para_XML',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.016637Z: [Thread 15112] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aplicacao_rest/v1*'. 
+2024-05-31 14:21:15.016937Z: [Thread 15112] (Msg 1/1) BIP2269I: Recurso implementado 'gen.Aplicacao_REST' (uuid='gen.Aplicacao_REST',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:21:15.017013Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-05-31 14:21:15.017124Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-05-31 14:21:15.017246Z: [Thread 15112] (Msg 1/1) BIP9332I: RestAPI 'Aplicacao_REST' foi reloaded com êxito. 
+2024-05-31 14:21:15.018748Z: [Thread 2984] (Msg 1/1) BIP2866I: A segurança de administração IBM App Connect Enterprise é inactive. 
+2024-05-31 14:21:15.042670Z: [Thread 2984] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7600' para as conexões 'RestAdmin http'. 
+2024-05-31 14:21:15.043123Z: [Thread 15112] (Msg 1/1) BIP1991I: O servidor de integração concluiu a inicialização. 
+2024-05-31 14:23:55.256564Z: [Thread 1364] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-05-31 14:23:55.327268Z: [Thread 1364] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:24:05.306987Z: [Thread 1364] (Msg 1/1) BIP2271I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:05.307217Z: [Thread 1364] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.api.cat.dog.api_cat_dog_request' (uuid='br.com.api.cat.dog.api_cat_dog_request',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:05.307452Z: [Thread 1364] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:24:05.391825Z: [Thread 1364] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:24:05.472169Z: [Thread 1364] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:24:05.472847Z: [Thread 1364] (Msg 1/1) BIP2269I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 14:24:05.477087Z: [Thread 1364] (Msg 1/1) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 14:24:05.519848Z: [Thread 1364] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.api.cat.dog.api_cat_dog_request' (uuid='br.com.api.cat.dog.api_cat_dog_request',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:05.519963Z: [Thread 1364] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.api.cat.dog.api_cat_dog_request', 'br.com.api.cat.dog.api_cat_dog_request', encontrou uma falha e não pôde ser iniciado. 
+2024-05-31 14:24:05.520028Z: [Thread 1364] (Msg 2/2) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 14:24:05.520182Z: [Thread 1364] (Msg 1/1) BIP9333W: Application 'Aggregate_consumindo_api_cat_dog' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-05-31 14:24:05.520300Z: [Thread 1364] (Msg 1/1) BIP1096E: A origem 'Aggregate_consumindo_api_cat_dogproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
+2024-05-31 14:24:05.520878Z: [Thread 1364] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-05-31 14:24:43.029000Z: [Thread 15112] (Msg 1/1) BIP1989I: O Integration Server está finalizando devido a um evento de encerramento. 
+2024-05-31 14:24:43.030980Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-05-31 14:24:43.031376Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:24:43.031548Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
+2024-05-31 14:24:43.031776Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
+2024-05-31 14:24:43.032048Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
+2024-05-31 14:24:43.032320Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
+2024-05-31 14:24:43.032500Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
+2024-05-31 14:24:43.032664Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
+2024-05-31 14:24:43.032840Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
+2024-05-31 14:24:43.033008Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
+2024-05-31 14:24:43.033184Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
+2024-05-31 14:24:43.033512Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
+2024-05-31 14:24:43.033708Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
+2024-05-31 14:24:43.033912Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
+2024-05-31 14:24:43.034164Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-05-31 14:24:43.034412Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-05-31 14:24:43.034476Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-05-31 14:24:45.761332Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.932836Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.933088Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.933724Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.934172Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.cobol.to.csv.COBOL_TO_CSV' (uuid='br.com.cobol.to.csv.COBOL_TO_CSV',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.934376Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER' (uuid='br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.934540Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.csv.to.piped.map.CSV_TO_PIPED_MAP' (uuid='br.com.csv.to.piped.map.CSV_TO_PIPED_MAP',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.937272Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.collector.Collector' (uuid='br.com.collector.Collector',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.937452Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.filter.FILTER' (uuid='br.com.filter.FILTER',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.937580Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.json.csv.JSON_to_CSV' (uuid='br.com.json.csv.JSON_to_CSV',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.937740Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.route.ROUTE_EXAMPLE' (uuid='br.com.route.ROUTE_EXAMPLE',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.937884Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE' (uuid='br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.938012Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.treino.XML_2_CSV_FLOW' (uuid='br.com.treino.XML_2_CSV_FLOW',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.938256Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.xml.to.json.java.XML_TO_JSON_JAVA' (uuid='br.com.xml.to.json.java.XML_TO_JSON_JAVA',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.938376Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.xml.to.json.XML_to_JSON' (uuid='br.com.xml.to.json.XML_to_JSON',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.938516Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.xml.to.xml.xml_to_xml_using_xslt' (uuid='br.com.xml.to.xml.xml_to_xml_using_xslt',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.938720Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.consultando.api.externa.consultaAPI' (uuid='br.com.consultando.api.externa.consultaAPI',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.938820Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.consultando.api.externa.consultandoAPIExterna' (uuid='br.com.consultando.api.externa.consultandoAPIExterna',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.938944Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'Json_Para_XML' (uuid='Json_Para_XML',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:50.939348Z: [Thread 15112] (Msg 1/1) BIP2271I: Recurso implementado 'gen.Aplicacao_REST' (uuid='gen.Aplicacao_REST',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 14:24:51.432548Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
+2024-05-31 14:24:51.486128Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'COBOLMessageModel' do tipo 'SharedLibrary'. 
+2024-05-31 14:24:51.493208Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CSVMessageModelling' do tipo 'SharedLibrary'. 
+2024-05-31 14:24:51.516796Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
+2024-05-31 14:24:51.580768Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CSV_AULA30_CSV_TO_PIPED' do tipo 'SharedLibrary'. 
+2024-05-31 14:24:51.605280Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
+2024-05-31 14:24:51.643488Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
+2024-05-31 14:24:51.690460Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML2CSV_TRANSFROM' do tipo 'SharedLibrary'. 
+2024-05-31 14:24:51.697804Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-05-31 14:24:51.791020Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-05-31 14:24:51.791204Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-05-31 14:24:51.791356Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-05-31 14:24:51.892812Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 14:24:51.915292Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
+2024-05-31 14:24:51.923084Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
+2024-05-31 14:24:51.970164Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
+2024-05-31 14:24:51.986716Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
+2024-05-31 14:24:52.031992Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
+2024-05-31 14:24:52.048804Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
+2024-05-31 14:24:52.104104Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
+2024-05-31 14:24:52.144944Z: [Thread 15112] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
+2024-05-31 14:24:52.198188Z: [Thread 15112] (Msg 1/1) BIP3133I: O Listener HTTP parou o listening na porta '7800' para as conexões 'http'. 
+2024-05-31 14:24:54.184452Z: [Thread 15112] (Msg 1/1) BIP1992I: O servidor de integração 'TEST_SERVER' foi interrompido. 

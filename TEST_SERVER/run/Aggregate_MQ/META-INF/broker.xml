@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_MQproject.generated.bar" deployTimestamp="2024-06-03 14:05:09">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.aggregate.mq.Aggregate_MQ" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_MQproject.generated.bar" deployTimestamp="2024-06-03 14:05:09">
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#Aggregate Control.aggregateName" override="aggregate_control">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.queueName" override="MQ_RESQUEST">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.queueName" override="OUT1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.replyToQ" override="MQ_RESPONSE">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.replyToQMgr" override="ESTUDO_MQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.queueName" override="OUT2">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.replyToQ" override="MQ_RESPONSE">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.replyToQMgr" override="ESTUDO_MQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#MQ Output1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.aggregate.mq.Aggregate_MQ#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

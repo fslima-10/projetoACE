@@ -22,7 +22,7 @@
       <barEntry name="IBMdefined\CommaSeparatedFormat.xsd"/>
     </deployable>
     <deployable deployed="true" barResourceTimeStamp="1646242924000" workspaceResource="/CSVMessageModelling/library.descriptor">
-      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CSVMessageModelling\library.descriptor.&#xA;Successfully added file CSVMessageModelling\library.descriptor to BAR file.&#xA;Elapsed time: 0,001 second(s).&#xA;&#xA;Successfully added file CSVMessageModelling\library.descriptor to BAR file.&#xA;" severity="0"/>
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file CSVMessageModelling\library.descriptor.&#xA;Successfully added file CSVMessageModelling\library.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file CSVMessageModelling\library.descriptor to BAR file.&#xA;" severity="0"/>
       <barEntry name="library.descriptor"/>
     </deployable>
   </deployables>

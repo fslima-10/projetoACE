@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_consumindo_api_cat_dogproject.generated.bar" deployTimestamp="2024-05-31 14:32:18">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.api.cat.dog.api_cat_dog_request" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_consumindo_api_cat_dogproject.generated.bar" deployTimestamp="2024-05-31 14:32:18">
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#Aggregate Control.aggregateName" override="api_cat_dog_control">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.URLSpecifier" override="https://api.thecatapi.com/v1/images/0XYvRd7oD">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.acceptCompressedResponses">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.asyncResponseCorrelator" override="api_cat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.protocol">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Async Request.timeoutForServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Input.URLSpecifier" override="/consulta_cat_dog">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Input.useHTTPS" override="yes">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.api.cat.dog.api_cat_dog_request#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="api_cat_dog_response" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Aggregate_consumindo_api_cat_dogproject.generated.bar" deployTimestamp="2024-05-31 14:32:18">
+    <ConfigurableProperty uri="api_cat_dog_response#Aggregate Reply.aggregateName" override="aggregate_control">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#HTTP Async Response.asyncRequestCorrelator" override="api_cat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#HTTP Async Response.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="api_cat_dog_response#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

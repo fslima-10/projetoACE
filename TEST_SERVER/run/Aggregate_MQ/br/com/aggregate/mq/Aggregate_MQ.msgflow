@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" 
+xmlns:xmi="http://www.omg.org/XMI" xmlns:ComIbmMQInput.msgnode="ComIbmMQInput.msgnode" xmlns:ComIbmMQOutput.msgnode="ComIbmMQOutput.msgnode" xmlns:ComIbmAggregateControl.msgnode="ComIbmAggregateControl.msgnode" xmlns:ComIbmAggregateRequest.msgnode="ComIbmAggregateRequest.msgnode" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" 
+xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" nsURI="br/com/aggregate/mq/Aggregate_MQ.msgflow" 
+nsPrefix="br_com_aggregate_mq_Aggregate_MQ.msgflow">
+<eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1" nodeLayoutStyle="RECTANGLE">
+<eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
+<translation xmi:type="utility:TranslatableString" key="Aggregate_MQ" bundleName="br/com/aggregate/mq/Aggregate_MQ" pluginId="flowAPIgenerated"/>
+<colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/flowAPIgenerated/icons/full/obj16/Aggregate_MQ.gif"/>
+<colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/flowAPIgenerated/icons/full/obj30/Aggregate_MQ.gif"/>
+<composition>
+<nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="19,97" queueName="MQ_RESQUEST" messageDomainProperty="JSON">
+<translation xmi:type="utility:ConstantString" string="MQ Input"/>
+</nodes>
+<nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="479,38" queueName="OUT1" request="true" replyToQMgr="ESTUDO_MQ" replyToQ="MQ_RESPONSE">
+<translation xmi:type="utility:ConstantString" string="MQ Output"/>
+</nodes>
+<nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="456,198" queueName="OUT2" request="true" replyToQMgr="ESTUDO_MQ" replyToQ="MQ_RESPONSE">
+<translation xmi:type="utility:ConstantString" string="MQ Output1"/>
+</nodes>
+<nodes xmi:type="ComIbmAggregateControl.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="246,99" aggregateName="aggregate_control">
+<translation xmi:type="utility:ConstantString" string="Aggregate Control"/>
+</nodes>
+<nodes xmi:type="ComIbmAggregateRequest.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="797,40" folderName="aggregate_request_01">
+<translation xmi:type="utility:ConstantString" string="Aggregate Request"/>
+</nodes>
+<nodes xmi:type="ComIbmAggregateRequest.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_6" location="802,216" folderName="aggregate_request_02">
+<translation xmi:type="utility:ConstantString" string="Aggregate Request1"/>
+</nodes>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_4" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="FCMComposite_1_2" sourceNode="FCMComposite_1_4" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_3" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_4" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_4" targetNode="FCMComposite_1_5" sourceNode="FCMComposite_1_2" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_5" targetNode="FCMComposite_1_6" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+</composition>
+<propertyOrganizer>
+</propertyOrganizer>
+<stickyBoard>
+<stickyNote location="170,278" >
+<body xmi:type="utility:ConstantString" string="O aggregate usando MQ usa o mesmo fluxo que o request feito via aplicação web.&#xA;A diferança é que precisamos configurar os nodes MQ.&#xA;No primeiro npde MQ Input devemos informar o nome da fila de request, no nosso exemplo foi a MQ_REQUEST e o tipo de dados que vai chegar no request.&#xA;Nos nodes de MQ Output na aba request devemos habilitar a opção request e informar o gerenciador e o nome da fila de response, nessa aba a fila de response são a mesma&#xA;para todos os node.&#xA;Na aba basic deveos informar uma outra fila de saída, nesse caso cada nodes MQ Output deve receber uma fila diferente, exemplo OUT1 e OUT2, essas saídas devev ser &#xA;diferentes pois elas iram cair em MQ Input diferente no outro msgflow, quando criamos o outro msgflow que faz parte do fluxo devemos vincular cada out com um MQ Input.&#xA;"/>
+</stickyNote>
+</stickyBoard>
+</eClassifiers>
+</ecore:EPackage>

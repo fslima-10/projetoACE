@@ -1,0 +1,46 @@
+2024-05-31 11:31:37.399564: BIP1990I: Servidor de integração 'TEST_SERVER2' iniciando a inicialização; versão '12.0.9.0' (64 bits) 
+2024-05-31 11:31:38.088092: BIP9905I: Inicializando gerenciadores de recursos. 
+Listening for transport dt_socket at address: 9998
+2024-05-31 11:31:59.052056: BIP9906I: Lendo recursos implementados. 
+2024-05-31 11:31:59.092500: BIP9907I: Inicializando recursos implementados. 
+2024-05-31 11:31:59.095184: BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 11:31:59.116724: BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-05-31 11:32:06.438750: BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-05-31 11:32:06.439437: BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 11:32:06.439808: BIP2271I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 11:32:06.439889: BIP9320E: O fluxo de mensagens 'br.com.aggregate.aggregate_http_request', 'br.com.aggregate.aggregate_http_request', encontrou uma falha e não pôde ser iniciado. 
+2024-05-31 11:32:06.439959: BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 11:32:06.440647: BIP2269I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') iniciado com êxito. 
+An http endpoint was registered on port '7801', path '/aggregate1'.
+2024-05-31 11:32:06.500457: BIP3132I: O Listener HTTP iniciou o listening na porta '7801' para as conexões 'http'. 
+2024-05-31 11:32:06.500523: BIP1996I: Atendendo na URL de HTTP '/aggregate1'. 
+Started native listener for HTTP input node on port 7801 for URL /aggregate1
+An http endpoint was registered on port '7801', path '/aggregate2'.
+2024-05-31 11:32:06.501111: BIP1996I: Atendendo na URL de HTTP '/aggregate2'. 
+Started native listener for HTTP input node on port 7801 for URL /aggregate2
+2024-05-31 11:32:06.501440: BIP2269I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 11:32:06.501637: BIP9333W: Application 'Aggregate_Example' foi reloaded, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-05-31 11:32:06.501828: BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 11:32:06.502481: BIP2269I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 11:32:06.502921: BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 11:32:06.503277: BIP2271I: Recurso implementado 'br.com.api.cat.dog.api_cat_dog_request' (uuid='br.com.api.cat.dog.api_cat_dog_request',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 11:32:06.503333: BIP9320E: O fluxo de mensagens 'br.com.api.cat.dog.api_cat_dog_request', 'br.com.api.cat.dog.api_cat_dog_request', encontrou uma falha e não pôde ser iniciado. 
+2024-05-31 11:32:06.503417: BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 11:32:06.503503: BIP9333W: Application 'Aggregate_consumindo_api_cat_dog' foi reloaded, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-05-31 11:32:06.522057: BIP2866I: A segurança de administração IBM App Connect Enterprise é inactive. 
+2024-05-31 11:32:06.594540: BIP3132I: O Listener HTTP iniciou o listening na porta '7601' para as conexões 'RestAdmin http'. 
+2024-05-31 11:32:06.595407: BIP1991I: O servidor de integração concluiu a inicialização. 
+2024-05-31 11:32:18.853398: BIP2152I: Mensagem de configuração recebida. 
+2024-05-31 11:32:18.999120: BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 11:32:27.453306: BIP2271I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 11:32:27.453494: BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 11:32:27.493034: BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 11:32:27.574030: BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-05-31 11:32:27.574780: BIP2269I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') iniciado com êxito. 
+2024-05-31 11:32:27.575152: BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 11:32:27.575498: BIP2271I: Recurso implementado 'br.com.api.cat.dog.api_cat_dog_request' (uuid='br.com.api.cat.dog.api_cat_dog_request',tipo='MessageFlow') interrompido com êxito. 
+2024-05-31 11:32:27.575586: BIP9320E: O fluxo de mensagens 'br.com.api.cat.dog.api_cat_dog_request', 'br.com.api.cat.dog.api_cat_dog_request', encontrou uma falha e não pôde ser iniciado. 
+2024-05-31 11:32:27.575630: BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-05-31 11:32:27.575792: BIP9333W: Application 'Aggregate_consumindo_api_cat_dog' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-05-31 11:32:27.575914: BIP1096E: A origem 'Aggregate_consumindo_api_cat_dogproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
+2024-05-31 11:32:27.576430: BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 

@@ -1,200 +1,434 @@
-2024-05-29 19:34:31.161204Z: [Thread 13612] (Msg 1/1) BIP1990I: Servidor de integração 'TEST_SERVER' iniciando a inicialização; versão '12.0.9.0' (64 bits) 
-2024-05-29 19:34:31.806502Z: [Thread 13612] (Msg 1/1) BIP9905I: Inicializando gerenciadores de recursos. 
-2024-05-29 19:34:36.988924Z: [Thread 13612] (Msg 1/1) BIP9906I: Lendo recursos implementados. 
-2024-05-29 19:34:37.107008Z: [Thread 13612] (Msg 1/1) BIP9907I: Inicializando recursos implementados. 
-2024-05-29 19:34:37.112828Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:34:37.158184Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
-2024-05-29 19:34:37.158376Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
-2024-05-29 19:34:37.158544Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'static' do tipo 'StaticLibrary'. 
-2024-05-29 19:34:37.195104Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
-2024-05-29 19:34:37.231912Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'COBOLMessageModel' do tipo 'SharedLibrary'. 
-2024-05-29 19:34:37.233228Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
-2024-05-29 19:34:37.485584Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 19:34:37.590660Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSVMessageModelling' do tipo 'SharedLibrary'. 
-2024-05-29 19:34:37.592076Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSV_AULA30_CSV_TO_PIPED' do tipo 'SharedLibrary'. 
-2024-05-29 19:34:37.593504Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
-2024-05-29 19:34:37.633904Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
-2024-05-29 19:34:37.657788Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
-2024-05-29 19:34:37.677820Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
-2024-05-29 19:34:37.697988Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
-2024-05-29 19:34:37.719632Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML2CSV_TRANSFROM' do tipo 'SharedLibrary'. 
-2024-05-29 19:34:37.720956Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
-2024-05-29 19:34:37.740052Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
-2024-05-29 19:34:37.759680Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
-2024-05-29 19:34:37.778852Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
-2024-05-29 19:34:40.785392Z: [Thread 13612] (Msg 1/1) BIP9332I: PolicyProject 'MQPolicyProject' foi reloaded com êxito. 
-2024-05-29 19:34:40.785664Z: [Thread 13612] (Msg 1/1) BIP9332I: SharedLibrary 'COBOLMessageModel' foi reloaded com êxito. 
-2024-05-29 19:34:40.785840Z: [Thread 13612] (Msg 1/1) BIP9332I: SharedLibrary 'CSVMessageModelling' foi reloaded com êxito. 
-2024-05-29 19:34:40.786128Z: [Thread 13612] (Msg 1/1) BIP9332I: SharedLibrary 'CSV_AULA30_CSV_TO_PIPED' foi reloaded com êxito. 
-2024-05-29 19:34:40.786332Z: [Thread 13612] (Msg 1/1) BIP9332I: SharedLibrary 'XML2CSV_TRANSFROM' foi reloaded com êxito. 
-2024-05-29 19:34:40.786508Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:34:40.840604Z: [Thread 13612] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7800' para as conexões 'http'. 
-2024-05-29 19:34:40.840680Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate_principal'. 
-2024-05-29 19:34:40.841060Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.841636Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.842264Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate1'. 
-2024-05-29 19:34:40.842816Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate2'. 
-2024-05-29 19:34:40.843284Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.843472Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'Aggregate_Example' foi reloaded com êxito. 
-2024-05-29 19:34:40.843700Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
-2024-05-29 19:34:40.844404Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/cobol_to_csv'. 
-2024-05-29 19:34:40.844696Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.cobol.to.csv.COBOL_TO_CSV' (uuid='br.com.cobol.to.csv.COBOL_TO_CSV',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.844776Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'COBOL_TO_CSV' foi reloaded com êxito. 
-2024-05-29 19:34:40.844880Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
-2024-05-29 19:34:40.845432Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/csvtopipedcomputer'. 
-2024-05-29 19:34:40.845816Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER' (uuid='br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.846368Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/csvtopipedmap'. 
-2024-05-29 19:34:40.846684Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.csv.to.piped.map.CSV_TO_PIPED_MAP' (uuid='br.com.csv.to.piped.map.CSV_TO_PIPED_MAP',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.846776Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'CSV_TO_PIPED_MAP_AULA_30' foi reloaded com êxito. 
-2024-05-29 19:34:40.846880Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 19:34:40.847552Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.collector.Collector' (uuid='br.com.collector.Collector',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.847636Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'CollectorNode' foi reloaded com êxito. 
-2024-05-29 19:34:40.847736Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
-2024-05-29 19:34:40.848292Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/filter_example'. 
-2024-05-29 19:34:40.848640Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.filter.FILTER' (uuid='br.com.filter.FILTER',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.848732Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'FILTER_EXAMPLE' foi reloaded com êxito. 
-2024-05-29 19:34:40.848880Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
-2024-05-29 19:34:40.849452Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/json_to_csv'. 
-2024-05-29 19:34:40.849768Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.json.csv.JSON_to_CSV' (uuid='br.com.json.csv.JSON_to_CSV',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.849856Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'JSON_to_CSV' foi reloaded com êxito. 
-2024-05-29 19:34:40.849964Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
-2024-05-29 19:34:40.850560Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/route'. 
-2024-05-29 19:34:40.850908Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.route.ROUTE_EXAMPLE' (uuid='br.com.route.ROUTE_EXAMPLE',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.851016Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'ROUTE_EXAMPLE' foi reloaded com êxito. 
-2024-05-29 19:34:40.851116Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
-2024-05-29 19:34:40.851696Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/route_to_label'. 
-2024-05-29 19:34:40.852072Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE' (uuid='br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.852160Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'ROUTE_TO_LABEL_NODE' foi reloaded com êxito. 
-2024-05-29 19:34:40.852260Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
-2024-05-29 19:34:40.852820Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml2csv'. 
-2024-05-29 19:34:40.853096Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.treino.XML_2_CSV_FLOW' (uuid='br.com.treino.XML_2_CSV_FLOW',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.853172Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'XML_CSV_COMPUTER' foi reloaded com êxito. 
-2024-05-29 19:34:40.853268Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
-2024-05-29 19:34:40.853764Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml_to_json_java'. 
-2024-05-29 19:34:40.854124Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.json.java.XML_TO_JSON_JAVA' (uuid='br.com.xml.to.json.java.XML_TO_JSON_JAVA',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.854212Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'XML_TO_JSON_JAVA' foi reloaded com êxito. 
-2024-05-29 19:34:40.854312Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
-2024-05-29 19:34:40.854924Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml_to_json'. 
-2024-05-29 19:34:40.855268Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.json.XML_to_JSON' (uuid='br.com.xml.to.json.XML_to_JSON',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.855356Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'XML_to_JSON' foi reloaded com êxito. 
-2024-05-29 19:34:40.855484Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
-2024-05-29 19:34:40.856384Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xmlTo/xml'. 
-2024-05-29 19:34:40.856744Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.xml.xml_to_xml_using_xslt' (uuid='br.com.xml.to.xml.xml_to_xml_using_xslt',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.856848Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'XML_to_XML_Using_XSLY' foi reloaded com êxito. 
-2024-05-29 19:34:40.856960Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
-2024-05-29 19:34:40.857548Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/chamandoConsultaCliente'. 
-2024-05-29 19:34:40.857892Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.consultando.api.externa.consultaAPI' (uuid='br.com.consultando.api.externa.consultaAPI',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.858464Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/estudoACE/consultaAPIExterna'. 
-2024-05-29 19:34:40.858768Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.consultando.api.externa.consultandoAPIExterna' (uuid='br.com.consultando.api.externa.consultandoAPIExterna',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.858856Z: [Thread 13612] (Msg 1/1) BIP9332I: Application 'chamandoAPIExterna' foi reloaded com êxito. 
-2024-05-29 19:34:40.858956Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
-2024-05-29 19:34:40.859536Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/jsonparaxml'. 
-2024-05-29 19:34:40.859820Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'Json_Para_XML' (uuid='Json_Para_XML',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.860416Z: [Thread 13612] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aplicacao_rest/v1*'. 
-2024-05-29 19:34:40.860792Z: [Thread 13612] (Msg 1/1) BIP2269I: Recurso implementado 'gen.Aplicacao_REST' (uuid='gen.Aplicacao_REST',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:34:40.860880Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
-2024-05-29 19:34:40.860984Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'static' do tipo 'StaticLibrary'. 
-2024-05-29 19:34:40.861080Z: [Thread 13612] (Msg 1/1) BIP9332I: RestAPI 'Aplicacao_REST' foi reloaded com êxito. 
-2024-05-29 19:34:40.862816Z: [Thread 13080] (Msg 1/1) BIP2866I: A segurança de administração IBM App Connect Enterprise é inactive. 
-2024-05-29 19:34:40.888524Z: [Thread 13080] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7600' para as conexões 'RestAdmin http'. 
-2024-05-29 19:34:40.889072Z: [Thread 13612] (Msg 1/1) BIP1991I: O servidor de integração concluiu a inicialização. 
-2024-05-29 19:34:42.411096Z: [Thread 17344] (Msg 1/1) BIP2648E: Mensagem restaurada para uma fila: nó do fluxo de mensagens 'br.com.collector.Collector.MQ Input'. 
-2024-05-29 19:34:42.411176Z: [Thread 17344] (Msg 1/1) BIP2630E: Nenhuma fila de restauração ou DLQ definido para uma mensagem a ser restaurada; recebido da fila 'N1' 
-2024-05-29 19:34:43.424628Z: [Thread 17344] (Msg 1/2) BIP2628W: Condição de exceção detectada no nó de entrada 'br.com.collector.Collector.MQ Input'. 
-2024-05-29 19:34:43.424712Z: [Thread 17344] (Msg 2/2) BIP2630E: Nenhuma fila de restauração ou DLQ definido para uma mensagem a ser restaurada; recebido da fila 'N1' 
-2024-05-29 19:44:04.809628Z: [Thread 1144] (Msg 1/4) BIP2628W: Condição de exceção detectada no nó de entrada 'br.com.aggregate.aggregator_collector.HTTP Async Response1'. 
-2024-05-29 19:44:04.809708Z: [Thread 1144] (Msg 2/4) BIP2230E: Foi detectado um erro ao processar uma mensagem no nó 'Aggregate Reply'. 
-2024-05-29 19:44:04.809754Z: [Thread 1144] (Msg 3/4) BIP2230E: Foi detectado um erro ao processar uma mensagem no nó 'br.com.aggregate.aggregator_collector.HTTP Reply'. 
-2024-05-29 19:44:04.809802Z: [Thread 1144] (Msg 4/4) BIP3742E: Foi feita uma tentativa de usar uma mensagem EVHT ReplyIdentifier após ela já ter sido usada. 
-2024-05-29 19:45:52.663164Z: [Thread 8400] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 19:45:52.910608Z: [Thread 8400] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:45:53.390380Z: [Thread 8400] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:46:02.312894Z: [Thread 8400] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:46:02.313113Z: [Thread 8400] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:46:02.313237Z: [Thread 8400] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:46:02.440806Z: [Thread 8400] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:46:02.540408Z: [Thread 8400] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:46:02.540795Z: [Thread 8400] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate_principal'. 
-2024-05-29 19:46:02.541056Z: [Thread 8400] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:46:02.541882Z: [Thread 8400] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:46:02.542368Z: [Thread 8400] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate1'. 
-2024-05-29 19:46:02.542789Z: [Thread 8400] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate2'. 
-2024-05-29 19:46:02.543092Z: [Thread 8400] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:46:02.543211Z: [Thread 8400] (Msg 1/1) BIP9332I: Application 'Aggregate_Example' foi changed com êxito. 
-2024-05-29 19:46:02.543294Z: [Thread 8400] (Msg 1/1) BIP9326I: A origem 'Aggregate_Exampleproject.generated.bar' foi implementada com êxito. 
-2024-05-29 19:46:02.543845Z: [Thread 8400] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 19:46:46.197616Z: [Thread 9212] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
-2024-05-29 19:46:46.364200Z: [Thread 9212] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:46:48.489700Z: [Thread 9212] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:46:52.649564Z: [Thread 9212] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:46:52.649744Z: [Thread 9212] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:46:52.649824Z: [Thread 9212] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:46:52.769016Z: [Thread 9212] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:46:52.851884Z: [Thread 9212] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:46:52.852368Z: [Thread 9212] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate_principal'. 
-2024-05-29 19:46:52.852676Z: [Thread 9212] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:46:52.853380Z: [Thread 9212] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:46:52.853956Z: [Thread 9212] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate1'. 
-2024-05-29 19:46:52.854480Z: [Thread 9212] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate2'. 
-2024-05-29 19:46:52.854828Z: [Thread 9212] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') iniciado com êxito. 
-2024-05-29 19:46:52.854996Z: [Thread 9212] (Msg 1/1) BIP9332I: Application 'Aggregate_Example' foi changed com êxito. 
-2024-05-29 19:46:52.855112Z: [Thread 9212] (Msg 1/1) BIP9326I: A origem 'Aggregate_Exampleproject.generated.bar' foi implementada com êxito. 
-2024-05-29 19:46:52.855468Z: [Thread 9212] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
-2024-05-29 19:51:06.737631Z: [Thread 13612] (Msg 1/1) BIP1989I: O Integration Server está finalizando devido a um evento de encerramento. 
-2024-05-29 19:51:06.739355Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:51:06.739694Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
-2024-05-29 19:51:06.739939Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
-2024-05-29 19:51:06.740168Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 19:51:06.740431Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
-2024-05-29 19:51:06.740600Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
-2024-05-29 19:51:06.740761Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
-2024-05-29 19:51:06.740921Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
-2024-05-29 19:51:06.741039Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
-2024-05-29 19:51:06.741148Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
-2024-05-29 19:51:06.741288Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
-2024-05-29 19:51:06.741397Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
-2024-05-29 19:51:06.741524Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
-2024-05-29 19:51:06.741698Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
-2024-05-29 19:51:06.741856Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
-2024-05-29 19:51:06.741920Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'static' do tipo 'StaticLibrary'. 
-2024-05-29 19:51:07.929885Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.076920Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.077090Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.077325Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.cobol.to.csv.COBOL_TO_CSV' (uuid='br.com.cobol.to.csv.COBOL_TO_CSV',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.077523Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER' (uuid='br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.077715Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.csv.to.piped.map.CSV_TO_PIPED_MAP' (uuid='br.com.csv.to.piped.map.CSV_TO_PIPED_MAP',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.080068Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.collector.Collector' (uuid='br.com.collector.Collector',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.080371Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.filter.FILTER' (uuid='br.com.filter.FILTER',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.080592Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.json.csv.JSON_to_CSV' (uuid='br.com.json.csv.JSON_to_CSV',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.080814Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.route.ROUTE_EXAMPLE' (uuid='br.com.route.ROUTE_EXAMPLE',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.080975Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE' (uuid='br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.081196Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.treino.XML_2_CSV_FLOW' (uuid='br.com.treino.XML_2_CSV_FLOW',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.081478Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.xml.to.json.java.XML_TO_JSON_JAVA' (uuid='br.com.xml.to.json.java.XML_TO_JSON_JAVA',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.081655Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.xml.to.json.XML_to_JSON' (uuid='br.com.xml.to.json.XML_to_JSON',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.081871Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.xml.to.xml.xml_to_xml_using_xslt' (uuid='br.com.xml.to.xml.xml_to_xml_using_xslt',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.082050Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.consultando.api.externa.consultaAPI' (uuid='br.com.consultando.api.externa.consultaAPI',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.082253Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.consultando.api.externa.consultandoAPIExterna' (uuid='br.com.consultando.api.externa.consultandoAPIExterna',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.082456Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'Json_Para_XML' (uuid='Json_Para_XML',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.082906Z: [Thread 13612] (Msg 1/1) BIP2271I: Recurso implementado 'gen.Aplicacao_REST' (uuid='gen.Aplicacao_REST',tipo='MessageFlow') interrompido com êxito. 
-2024-05-29 19:51:14.701187Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
-2024-05-29 19:51:14.766492Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'COBOLMessageModel' do tipo 'SharedLibrary'. 
-2024-05-29 19:51:14.772571Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CSVMessageModelling' do tipo 'SharedLibrary'. 
-2024-05-29 19:51:14.791755Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
-2024-05-29 19:51:14.829699Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CSV_AULA30_CSV_TO_PIPED' do tipo 'SharedLibrary'. 
-2024-05-29 19:51:14.856823Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
-2024-05-29 19:51:14.872479Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
-2024-05-29 19:51:14.897526Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML2CSV_TRANSFROM' do tipo 'SharedLibrary'. 
-2024-05-29 19:51:14.903328Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
-2024-05-29 19:51:14.939848Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
-2024-05-29 19:51:14.939927Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'static' do tipo 'StaticLibrary'. 
-2024-05-29 19:51:14.940143Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
-2024-05-29 19:51:14.992539Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'CollectorNode' do tipo 'Application'. 
-2024-05-29 19:51:15.010541Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
-2024-05-29 19:51:15.037751Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
-2024-05-29 19:51:15.078387Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
-2024-05-29 19:51:15.111922Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
-2024-05-29 19:51:15.159137Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
-2024-05-29 19:51:15.174903Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
-2024-05-29 19:51:15.208090Z: [Thread 13612] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
-2024-05-29 19:51:15.255281Z: [Thread 13612] (Msg 1/1) BIP3133I: O Listener HTTP parou o listening na porta '7800' para as conexões 'http'. 
-2024-05-29 19:51:17.875578Z: [Thread 13612] (Msg 1/1) BIP1992I: O servidor de integração 'TEST_SERVER' foi interrompido. 
+2024-06-03 14:04:18.474904Z: [Thread 5656] (Msg 1/1) BIP1990I: Servidor de integração 'TEST_SERVER' iniciando a inicialização; versão '12.0.9.0' (64 bits) 
+2024-06-03 14:04:19.155238Z: [Thread 5656] (Msg 1/1) BIP9905I: Inicializando gerenciadores de recursos. 
+2024-06-03 14:04:43.079828Z: [Thread 5656] (Msg 1/1) BIP9906I: Lendo recursos implementados. 
+2024-06-03 14:04:43.563760Z: [Thread 5656] (Msg 1/1) BIP9907I: Inicializando recursos implementados. 
+2024-06-03 14:04:43.570796Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-06-03 14:04:43.602316Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:04:43.644280Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-06-03 14:04:43.644476Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-06-03 14:04:43.644656Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-06-03 14:04:43.728584Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
+2024-06-03 14:04:43.783388Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'COBOLMessageModel' do tipo 'SharedLibrary'. 
+2024-06-03 14:04:43.785132Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
+2024-06-03 14:04:44.087024Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CollectorNode' do tipo 'Application'. 
+2024-06-03 14:04:44.478784Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSVMessageModelling' do tipo 'SharedLibrary'. 
+2024-06-03 14:04:44.480224Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSV_AULA30_CSV_TO_PIPED' do tipo 'SharedLibrary'. 
+2024-06-03 14:04:44.481760Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
+2024-06-03 14:04:44.535652Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
+2024-06-03 14:04:44.583260Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
+2024-06-03 14:04:44.611920Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
+2024-06-03 14:04:44.660720Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
+2024-06-03 14:04:44.710036Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML2CSV_TRANSFROM' do tipo 'SharedLibrary'. 
+2024-06-03 14:04:44.711944Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
+2024-06-03 14:04:44.746448Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
+2024-06-03 14:04:44.776580Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
+2024-06-03 14:04:44.800552Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
+2024-06-03 14:04:56.624848Z: [Thread 5656] (Msg 1/1) BIP9332I: PolicyProject 'MQPolicyProject' foi reloaded com êxito. 
+2024-06-03 14:04:56.625228Z: [Thread 5656] (Msg 1/1) BIP9332I: SharedLibrary 'COBOLMessageModel' foi reloaded com êxito. 
+2024-06-03 14:04:56.625616Z: [Thread 5656] (Msg 1/1) BIP9332I: SharedLibrary 'CSVMessageModelling' foi reloaded com êxito. 
+2024-06-03 14:04:56.625896Z: [Thread 5656] (Msg 1/1) BIP9332I: SharedLibrary 'CSV_AULA30_CSV_TO_PIPED' foi reloaded com êxito. 
+2024-06-03 14:04:56.626908Z: [Thread 5656] (Msg 1/1) BIP9332I: SharedLibrary 'XML2CSV_TRANSFROM' foi reloaded com êxito. 
+2024-06-03 14:04:56.627292Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:04:56.628220Z: [Thread 5656] (Msg 1/1) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:04:56.628912Z: [Thread 5656] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:04:56.629108Z: [Thread 5656] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.aggregate.aggregate_http_request', 'br.com.aggregate.aggregate_http_request', encontrou uma falha e não pôde ser iniciado. 
+2024-06-03 14:04:56.629180Z: [Thread 5656] (Msg 2/2) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:04:56.633568Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.718204Z: [Thread 5656] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7800' para as conexões 'http'. 
+2024-06-03 14:04:56.718316Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate1'. 
+2024-06-03 14:04:56.718908Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate2'. 
+2024-06-03 14:04:56.719248Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.719388Z: [Thread 5656] (Msg 1/1) BIP9333W: Application 'Aggregate_Example' foi reloaded, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-06-03 14:04:56.719548Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-06-03 14:04:56.720476Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.721076Z: [Thread 5656] (Msg 1/1) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:04:56.721616Z: [Thread 5656] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.api.cat.dog.api_cat_dog_request' (uuid='br.com.api.cat.dog.api_cat_dog_request',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:04:56.721736Z: [Thread 5656] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.api.cat.dog.api_cat_dog_request', 'br.com.api.cat.dog.api_cat_dog_request', encontrou uma falha e não pôde ser iniciado. 
+2024-06-03 14:04:56.721816Z: [Thread 5656] (Msg 2/2) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:04:56.721960Z: [Thread 5656] (Msg 1/1) BIP9333W: Application 'Aggregate_consumindo_api_cat_dog' foi reloaded, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-06-03 14:04:56.722152Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'COBOL_TO_CSV' do tipo 'Application'. 
+2024-06-03 14:04:56.722876Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/cobol_to_csv'. 
+2024-06-03 14:04:56.723336Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.cobol.to.csv.COBOL_TO_CSV' (uuid='br.com.cobol.to.csv.COBOL_TO_CSV',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.723472Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'COBOL_TO_CSV' foi reloaded com êxito. 
+2024-06-03 14:04:56.723808Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CSV_TO_PIPED_MAP_AULA_30' do tipo 'Application'. 
+2024-06-03 14:04:56.724732Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/csvtopipedcomputer'. 
+2024-06-03 14:04:56.725108Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER' (uuid='br.com.csv.to.piped.computer.CSV_TO_PIPED_COMPUTER',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.725752Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/csvtopipedmap'. 
+2024-06-03 14:04:56.726088Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.csv.to.piped.map.CSV_TO_PIPED_MAP' (uuid='br.com.csv.to.piped.map.CSV_TO_PIPED_MAP',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.726244Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'CSV_TO_PIPED_MAP_AULA_30' foi reloaded com êxito. 
+2024-06-03 14:04:56.726432Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'CollectorNode' do tipo 'Application'. 
+2024-06-03 14:04:56.727400Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.collector.Collector' (uuid='br.com.collector.Collector',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.727560Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'CollectorNode' foi reloaded com êxito. 
+2024-06-03 14:04:56.727748Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'FILTER_EXAMPLE' do tipo 'Application'. 
+2024-06-03 14:04:56.728536Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/filter_example'. 
+2024-06-03 14:04:56.728900Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.filter.FILTER' (uuid='br.com.filter.FILTER',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.729044Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'FILTER_EXAMPLE' foi reloaded com êxito. 
+2024-06-03 14:04:56.729256Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'JSON_to_CSV' do tipo 'Application'. 
+2024-06-03 14:04:56.730024Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/json_to_csv'. 
+2024-06-03 14:04:56.730368Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.json.csv.JSON_to_CSV' (uuid='br.com.json.csv.JSON_to_CSV',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.730516Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'JSON_to_CSV' foi reloaded com êxito. 
+2024-06-03 14:04:56.730692Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'ROUTE_EXAMPLE' do tipo 'Application'. 
+2024-06-03 14:04:56.731436Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/route'. 
+2024-06-03 14:04:56.731868Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.route.ROUTE_EXAMPLE' (uuid='br.com.route.ROUTE_EXAMPLE',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.732004Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'ROUTE_EXAMPLE' foi reloaded com êxito. 
+2024-06-03 14:04:56.732176Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'ROUTE_TO_LABEL_NODE' do tipo 'Application'. 
+2024-06-03 14:04:56.732912Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/route_to_label'. 
+2024-06-03 14:04:56.733308Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE' (uuid='br.com.rout.to.label.ROUT_TO_LABEL_EXAMPLE',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.733432Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'ROUTE_TO_LABEL_NODE' foi reloaded com êxito. 
+2024-06-03 14:04:56.733588Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_CSV_COMPUTER' do tipo 'Application'. 
+2024-06-03 14:04:56.734308Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml2csv'. 
+2024-06-03 14:04:56.734608Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.treino.XML_2_CSV_FLOW' (uuid='br.com.treino.XML_2_CSV_FLOW',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.734724Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'XML_CSV_COMPUTER' foi reloaded com êxito. 
+2024-06-03 14:04:56.734884Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_TO_JSON_JAVA' do tipo 'Application'. 
+2024-06-03 14:04:56.735612Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml_to_json_java'. 
+2024-06-03 14:04:56.736012Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.json.java.XML_TO_JSON_JAVA' (uuid='br.com.xml.to.json.java.XML_TO_JSON_JAVA',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.736132Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'XML_TO_JSON_JAVA' foi reloaded com êxito. 
+2024-06-03 14:04:56.736288Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_to_JSON' do tipo 'Application'. 
+2024-06-03 14:04:56.737076Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xml_to_json'. 
+2024-06-03 14:04:56.737408Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.json.XML_to_JSON' (uuid='br.com.xml.to.json.XML_to_JSON',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.737568Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'XML_to_JSON' foi reloaded com êxito. 
+2024-06-03 14:04:56.737976Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'XML_to_XML_Using_XSLY' do tipo 'Application'. 
+2024-06-03 14:04:56.738700Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/xmlTo/xml'. 
+2024-06-03 14:04:56.739132Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.xml.to.xml.xml_to_xml_using_xslt' (uuid='br.com.xml.to.xml.xml_to_xml_using_xslt',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.739272Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'XML_to_XML_Using_XSLY' foi reloaded com êxito. 
+2024-06-03 14:04:56.739472Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'chamandoAPIExterna' do tipo 'Application'. 
+2024-06-03 14:04:56.740272Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/chamandoConsultaCliente'. 
+2024-06-03 14:04:56.740640Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.consultando.api.externa.consultaAPI' (uuid='br.com.consultando.api.externa.consultaAPI',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.741280Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/estudoACE/consultaAPIExterna'. 
+2024-06-03 14:04:56.741576Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.consultando.api.externa.consultandoAPIExterna' (uuid='br.com.consultando.api.externa.consultandoAPIExterna',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.741712Z: [Thread 5656] (Msg 1/1) BIP9332I: Application 'chamandoAPIExterna' foi reloaded com êxito. 
+2024-06-03 14:04:56.741884Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aplicacao_REST' do tipo 'RestAPI'. 
+2024-06-03 14:04:56.742612Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/jsonparaxml'. 
+2024-06-03 14:04:56.742908Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'Json_Para_XML' (uuid='Json_Para_XML',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.743536Z: [Thread 5656] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aplicacao_rest/v1*'. 
+2024-06-03 14:04:56.744000Z: [Thread 5656] (Msg 1/1) BIP2269I: Recurso implementado 'gen.Aplicacao_REST' (uuid='gen.Aplicacao_REST',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:04:56.744136Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'consultaDebitosOnline' do tipo 'StaticLibrary'. 
+2024-06-03 14:04:56.744352Z: [Thread 5656] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'static' do tipo 'StaticLibrary'. 
+2024-06-03 14:04:56.744600Z: [Thread 5656] (Msg 1/1) BIP9332I: RestAPI 'Aplicacao_REST' foi reloaded com êxito. 
+2024-06-03 14:04:56.775148Z: [Thread 7660] (Msg 1/1) BIP2866I: A segurança de administração IBM App Connect Enterprise é inactive. 
+2024-06-03 14:04:56.947944Z: [Thread 7660] (Msg 1/1) BIP3132I: O Listener HTTP iniciou o listening na porta '7600' para as conexões 'RestAdmin http'. 
+2024-06-03 14:04:56.949468Z: [Thread 5656] (Msg 1/1) BIP1991I: O servidor de integração concluiu a inicialização. 
+2024-06-03 14:05:09.536920Z: [Thread 13332] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 14:05:09.632990Z: [Thread 13332] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_MQ' do tipo 'Application'. 
+2024-06-03 14:05:09.694321Z: [Thread 13332] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_MQ' do tipo 'Application'. 
+2024-06-03 14:05:09.694835Z: [Thread 13332] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.mq.Aggregate_MQ' (uuid='br.com.aggregate.mq.Aggregate_MQ',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:05:09.694933Z: [Thread 13332] (Msg 1/1) BIP9332I: Application 'Aggregate_MQ' foi created com êxito. 
+2024-06-03 14:05:09.695021Z: [Thread 13332] (Msg 1/1) BIP9326I: A origem 'Aggregate_MQproject.generated.bar' foi implementada com êxito. 
+2024-06-03 14:05:09.695430Z: [Thread 13332] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 14:05:25.337742Z: [Thread 9084] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 14:05:25.571996Z: [Thread 9084] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:05:32.739968Z: [Thread 9084] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:05:32.740170Z: [Thread 9084] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:05:32.740258Z: [Thread 9084] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:05:32.879902Z: [Thread 9084] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:05:32.974652Z: [Thread 9084] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:05:32.975116Z: [Thread 9084] (Msg 1/1) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:05:32.975586Z: [Thread 9084] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:05:32.975662Z: [Thread 9084] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.aggregate.aggregate_http_request', 'br.com.aggregate.aggregate_http_request', encontrou uma falha e não pôde ser iniciado. 
+2024-06-03 14:05:32.975720Z: [Thread 9084] (Msg 2/2) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:05:32.976498Z: [Thread 9084] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:05:32.977070Z: [Thread 9084] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate1'. 
+2024-06-03 14:05:32.977508Z: [Thread 9084] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate2'. 
+2024-06-03 14:05:32.977764Z: [Thread 9084] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:05:32.977916Z: [Thread 9084] (Msg 1/1) BIP9333W: Application 'Aggregate_Example' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-06-03 14:05:32.978066Z: [Thread 9084] (Msg 1/1) BIP1096E: A origem 'Aggregate_Exampleproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
+2024-06-03 14:05:32.978600Z: [Thread 9084] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 14:06:43.240124Z: [Thread 7176] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 14:06:43.421060Z: [Thread 7176] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:06:53.250940Z: [Thread 7176] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:06:53.251140Z: [Thread 7176] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:06:53.251264Z: [Thread 7176] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:06:53.368060Z: [Thread 7176] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:06:53.465008Z: [Thread 7176] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_Example' do tipo 'Application'. 
+2024-06-03 14:06:53.465488Z: [Thread 7176] (Msg 1/1) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:06:53.465804Z: [Thread 7176] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.aggregate.aggregate_http_request' (uuid='br.com.aggregate.aggregate_http_request',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:06:53.465868Z: [Thread 7176] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.aggregate.aggregate_http_request', 'br.com.aggregate.aggregate_http_request', encontrou uma falha e não pôde ser iniciado. 
+2024-06-03 14:06:53.465932Z: [Thread 7176] (Msg 2/2) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:06:53.466512Z: [Thread 7176] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.aggregator_collector' (uuid='br.com.aggregate.aggregator_collector',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:06:53.467152Z: [Thread 7176] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate1'. 
+2024-06-03 14:06:53.467628Z: [Thread 7176] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/aggregate2'. 
+2024-06-03 14:06:53.467924Z: [Thread 7176] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.aggregate.api_externa' (uuid='br.com.aggregate.api_externa',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:06:53.468008Z: [Thread 7176] (Msg 1/1) BIP9333W: Application 'Aggregate_Example' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-06-03 14:06:53.468084Z: [Thread 7176] (Msg 1/1) BIP1096E: A origem 'Aggregate_Exampleproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
+2024-06-03 14:06:53.468552Z: [Thread 7176] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 14:08:18.209652Z: [Thread 14536] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 14:08:18.388430Z: [Thread 14536] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-06-03 14:08:27.185886Z: [Thread 14536] (Msg 1/1) BIP2271I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:08:27.186026Z: [Thread 14536] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-06-03 14:08:27.232128Z: [Thread 14536] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-06-03 14:08:27.303886Z: [Thread 14536] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Aggregate_consumindo_api_cat_dog' do tipo 'Application'. 
+2024-06-03 14:08:27.304510Z: [Thread 14536] (Msg 1/1) BIP2269I: Recurso implementado 'api_cat_dog_response' (uuid='api_cat_dog_response',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:08:27.304924Z: [Thread 14536] (Msg 1/1) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:08:27.305280Z: [Thread 14536] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.api.cat.dog.api_cat_dog_request' (uuid='br.com.api.cat.dog.api_cat_dog_request',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:08:27.305348Z: [Thread 14536] (Msg 1/2) BIP9320E: O fluxo de mensagens 'br.com.api.cat.dog.api_cat_dog_request', 'br.com.api.cat.dog.api_cat_dog_request', encontrou uma falha e não pôde ser iniciado. 
+2024-06-03 14:08:27.305388Z: [Thread 14536] (Msg 2/2) BIP3135S: Ocorreu uma exceção ao iniciar o conector do mecanismo de servlet. O texto da exceção é No keystore configured 
+2024-06-03 14:08:27.305486Z: [Thread 14536] (Msg 1/1) BIP9333W: Application 'Aggregate_consumindo_api_cat_dog' foi changed, mas contém erros que evitaram que alguns recursos fossem iniciados. 
+2024-06-03 14:08:27.305576Z: [Thread 14536] (Msg 1/1) BIP1096E: A origem 'Aggregate_consumindo_api_cat_dogproject.generated.bar' foi implementada, mas houve uma ou mais falhas que podem significar que os recursos implementados não serão capazes de executar. 
+2024-06-03 14:08:27.306004Z: [Thread 14536] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 14:57:37.858316Z: [Thread 9220] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 14:57:37.959036Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 14:57:38.008896Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 14:57:38.009508Z: [Thread 9220] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 14:57:38.009820Z: [Thread 9220] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:57:38.009944Z: [Thread 9220] (Msg 1/1) BIP9332I: Application 'Group_Node' foi created com êxito. 
+2024-06-03 14:57:38.010040Z: [Thread 9220] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 14:57:38.010564Z: [Thread 9220] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 14:59:17.824236Z: [Thread 9220] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 14:59:17.916248Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 14:59:19.138368Z: [Thread 9220] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 14:59:19.138490Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 14:59:19.268224Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 14:59:19.377082Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 14:59:19.377808Z: [Thread 9220] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:59:19.378272Z: [Thread 9220] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 14:59:19.378562Z: [Thread 9220] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 14:59:19.378640Z: [Thread 9220] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 14:59:19.378704Z: [Thread 9220] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 14:59:19.379106Z: [Thread 9220] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 15:04:37.637568Z: [Thread 15364] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 15:04:37.728216Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 15:04:42.945580Z: [Thread 15364] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 15:04:42.945740Z: [Thread 15364] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 15:04:42.945828Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 15:04:43.086752Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 15:04:43.171300Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 15:04:43.171996Z: [Thread 15364] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 15:04:43.172492Z: [Thread 15364] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 15:04:43.172888Z: [Thread 15364] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 15:04:43.172968Z: [Thread 15364] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 15:04:43.173040Z: [Thread 15364] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 15:04:43.173444Z: [Thread 15364] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 15:08:06.729801Z: [Thread 3324] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 15:08:06.804559Z: [Thread 3324] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 15:08:10.662428Z: [Thread 3324] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 15:08:10.662592Z: [Thread 3324] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 15:08:10.662730Z: [Thread 3324] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 15:08:10.900202Z: [Thread 3324] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 15:08:10.968566Z: [Thread 3324] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 15:08:10.969473Z: [Thread 3324] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 15:08:10.969976Z: [Thread 3324] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 15:08:10.970309Z: [Thread 3324] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 15:08:10.970490Z: [Thread 3324] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 15:08:10.970575Z: [Thread 3324] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 15:08:10.970985Z: [Thread 3324] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:13:49.199608Z: [Thread 11892] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:13:49.317532Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:13:54.154268Z: [Thread 11892] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:13:54.154548Z: [Thread 11892] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:13:54.154656Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:13:54.382240Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:13:54.455852Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:13:54.456764Z: [Thread 11892] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:13:54.457180Z: [Thread 11892] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:13:54.457460Z: [Thread 11892] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:13:54.457560Z: [Thread 11892] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:13:54.457656Z: [Thread 11892] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:13:54.458212Z: [Thread 11892] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:26:24.533772Z: [Thread 10748] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:26:24.629790Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:26:28.096158Z: [Thread 10748] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:26:28.096326Z: [Thread 10748] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:26:28.096472Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:26:28.220202Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:26:28.282092Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:26:28.282962Z: [Thread 10748] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:26:28.283420Z: [Thread 10748] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:26:28.283710Z: [Thread 10748] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:26:28.283792Z: [Thread 10748] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:26:28.283860Z: [Thread 10748] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:26:28.284282Z: [Thread 10748] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:27:57.257592Z: [Thread 10244] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:27:57.336164Z: [Thread 10244] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:28:00.435794Z: [Thread 10244] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:28:00.435955Z: [Thread 10244] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:28:00.436068Z: [Thread 10244] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:28:00.522656Z: [Thread 10244] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:28:00.570563Z: [Thread 10244] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:28:00.571565Z: [Thread 10244] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:28:00.572206Z: [Thread 10244] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:28:00.572601Z: [Thread 10244] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:28:00.572806Z: [Thread 10244] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:28:00.572966Z: [Thread 10244] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:28:00.573665Z: [Thread 10244] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:28:20.967980Z: [Thread 15364] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:28:21.044428Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:28:26.747770Z: [Thread 15364] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:28:26.747968Z: [Thread 15364] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:28:26.748052Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:28:26.928254Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:28:26.975066Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:28:26.976134Z: [Thread 15364] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:28:26.976594Z: [Thread 15364] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:28:26.976872Z: [Thread 15364] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:28:26.976964Z: [Thread 15364] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:28:26.977028Z: [Thread 15364] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:28:26.977654Z: [Thread 15364] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:33:48.748908Z: [Thread 3324] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:33:48.851600Z: [Thread 3324] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:33:54.403416Z: [Thread 3324] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:33:54.403616Z: [Thread 3324] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:33:54.403696Z: [Thread 3324] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:33:54.546156Z: [Thread 3324] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:33:54.608816Z: [Thread 3324] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:33:54.609888Z: [Thread 3324] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:33:54.610468Z: [Thread 3324] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:33:54.610820Z: [Thread 3324] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:33:54.611048Z: [Thread 3324] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:33:54.611184Z: [Thread 3324] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:33:54.611896Z: [Thread 3324] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:34:48.245676Z: [Thread 11892] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:34:48.320452Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:34:51.102300Z: [Thread 11892] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:34:51.102500Z: [Thread 11892] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:34:51.102580Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:34:51.275500Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:34:51.331080Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:34:51.331988Z: [Thread 11892] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:34:51.332420Z: [Thread 11892] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:34:51.332688Z: [Thread 11892] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:34:51.332880Z: [Thread 11892] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:34:51.333036Z: [Thread 11892] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:34:51.333600Z: [Thread 11892] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:35:52.411172Z: [Thread 10748] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:35:52.484248Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:35:58.473772Z: [Thread 10748] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:35:58.473940Z: [Thread 10748] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:35:58.474108Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:35:58.606764Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:35:58.655068Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:35:58.656036Z: [Thread 10748] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:35:58.656484Z: [Thread 10748] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:35:58.656780Z: [Thread 10748] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:35:58.656856Z: [Thread 10748] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:35:58.656920Z: [Thread 10748] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:35:58.657356Z: [Thread 10748] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:39:10.950703Z: [Thread 10244] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:39:11.048555Z: [Thread 10244] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:39:15.029071Z: [Thread 10244] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:39:15.029317Z: [Thread 10244] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:39:15.029540Z: [Thread 10244] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:39:15.186777Z: [Thread 10244] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:39:15.267761Z: [Thread 10244] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:39:15.268679Z: [Thread 10244] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:39:15.269109Z: [Thread 10244] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:39:15.269395Z: [Thread 10244] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:39:15.269817Z: [Thread 10244] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group_request1'. 
+2024-06-03 16:39:15.270081Z: [Thread 10244] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:39:15.270217Z: [Thread 10244] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:39:15.270337Z: [Thread 10244] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:39:15.270850Z: [Thread 10244] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:42:23.598158Z: [Thread 9084] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:42:23.715368Z: [Thread 9084] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:42:25.300048Z: [Thread 9084] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:42:25.300206Z: [Thread 9084] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:42:25.300336Z: [Thread 9084] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:42:25.300472Z: [Thread 9084] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:42:25.502780Z: [Thread 9084] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:42:25.573768Z: [Thread 9084] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:42:25.574666Z: [Thread 9084] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:42:25.575342Z: [Thread 9084] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:42:25.575644Z: [Thread 9084] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:42:25.575966Z: [Thread 9084] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group_request1'. 
+2024-06-03 16:42:25.576314Z: [Thread 9084] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:42:25.576474Z: [Thread 9084] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:42:25.576592Z: [Thread 9084] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:42:25.577102Z: [Thread 9084] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 16:52:22.822094Z: [Thread 11892] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 16:52:22.923146Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:52:27.703350Z: [Thread 11892] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:52:27.703582Z: [Thread 11892] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:52:27.703772Z: [Thread 11892] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 16:52:27.703880Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:52:27.848950Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:52:27.925862Z: [Thread 11892] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 16:52:27.927178Z: [Thread 11892] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:52:27.927704Z: [Thread 11892] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 16:52:27.928026Z: [Thread 11892] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:52:27.928350Z: [Thread 11892] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group_request1'. 
+2024-06-03 16:52:27.928638Z: [Thread 11892] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 16:52:27.928716Z: [Thread 11892] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 16:52:27.928784Z: [Thread 11892] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 16:52:27.929374Z: [Thread 11892] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 17:01:23.259040Z: [Thread 8952] (Msg 1/3) BIP2628W: Condição de exceção detectada no nó de entrada 'br.com.group.Group_Gather.Group Complete'. 
+2024-06-03 17:01:23.259116Z: [Thread 8952] (Msg 2/3) BIP2230E: Foi detectado um erro ao processar uma mensagem no nó 'br.com.group.Group_Gather.HTTP Reply'. 
+2024-06-03 17:01:23.259154Z: [Thread 8952] (Msg 3/3) BIP3742E: Foi feita uma tentativa de usar uma mensagem EVHT ReplyIdentifier após ela já ter sido usada. 
+2024-06-03 17:02:56.777284Z: [Thread 7176] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 17:02:56.905788Z: [Thread 7176] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:03:02.032818Z: [Thread 7176] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:03:02.033031Z: [Thread 7176] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:03:02.033190Z: [Thread 7176] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:03:02.033283Z: [Thread 7176] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:03:02.144861Z: [Thread 7176] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:03:02.231188Z: [Thread 7176] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:03:02.231984Z: [Thread 7176] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:03:02.232572Z: [Thread 7176] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 17:03:02.232834Z: [Thread 7176] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:03:02.233198Z: [Thread 7176] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group_request1'. 
+2024-06-03 17:03:02.233434Z: [Thread 7176] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:03:02.233533Z: [Thread 7176] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 17:03:02.233614Z: [Thread 7176] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 17:03:02.234052Z: [Thread 7176] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 17:05:33.014980Z: [Thread 15364] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 17:05:33.092148Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:05:37.366944Z: [Thread 15364] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:05:37.367100Z: [Thread 15364] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:05:37.367256Z: [Thread 15364] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:05:37.367364Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:05:37.523476Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:05:37.601208Z: [Thread 15364] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:05:37.601924Z: [Thread 15364] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:05:37.602380Z: [Thread 15364] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 17:05:37.602616Z: [Thread 15364] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:05:37.602976Z: [Thread 15364] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group_request1'. 
+2024-06-03 17:05:37.603264Z: [Thread 15364] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:05:37.603372Z: [Thread 15364] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 17:05:37.603452Z: [Thread 15364] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 17:05:37.603892Z: [Thread 15364] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 17:08:48.299176Z: [Thread 14536] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 17:08:48.386260Z: [Thread 14536] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:08:54.052352Z: [Thread 14536] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:08:54.052660Z: [Thread 14536] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:08:54.052928Z: [Thread 14536] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:08:54.053116Z: [Thread 14536] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:08:54.188212Z: [Thread 14536] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:08:54.258960Z: [Thread 14536] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:08:54.259828Z: [Thread 14536] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:08:54.260384Z: [Thread 14536] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 17:08:54.260684Z: [Thread 14536] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:08:54.261040Z: [Thread 14536] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group_request1'. 
+2024-06-03 17:08:54.261272Z: [Thread 14536] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:08:54.261372Z: [Thread 14536] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 17:08:54.261440Z: [Thread 14536] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 17:08:54.261872Z: [Thread 14536] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 17:10:07.515891Z: [Thread 10748] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 17:10:07.596628Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:10:10.491247Z: [Thread 10748] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:10:10.491441Z: [Thread 10748] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:10:10.491578Z: [Thread 10748] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:10:10.491685Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:10:10.616055Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:10:10.685545Z: [Thread 10748] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:10:10.686366Z: [Thread 10748] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:10:10.686817Z: [Thread 10748] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 17:10:10.687161Z: [Thread 10748] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:10:10.687467Z: [Thread 10748] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group_request1'. 
+2024-06-03 17:10:10.687765Z: [Thread 10748] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:10:10.687851Z: [Thread 10748] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 17:10:10.687942Z: [Thread 10748] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 17:10:10.688445Z: [Thread 10748] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 
+2024-06-03 17:19:34.747596Z: [Thread 9220] (Msg 1/1) BIP2152I: Mensagem de configuração recebida. 
+2024-06-03 17:19:34.874756Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'Stop' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:19:40.390120Z: [Thread 9220] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:19:40.390304Z: [Thread 9220] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:19:40.390440Z: [Thread 9220] (Msg 1/1) BIP2271I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') interrompido com êxito. 
+2024-06-03 17:19:40.390536Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'TearDown' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:19:40.582412Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'Initialize' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:19:40.670684Z: [Thread 9220] (Msg 1/1) BIP2155I: Prestes a executar 'Start' no recurso implementado 'Group_Node' do tipo 'Application'. 
+2024-06-03 17:19:40.671592Z: [Thread 9220] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Gather' (uuid='br.com.group.Group_Gather',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:19:40.672092Z: [Thread 9220] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group'. 
+2024-06-03 17:19:40.672380Z: [Thread 9220] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.Group_Scatter' (uuid='br.com.group.Group_Scatter',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:19:40.672704Z: [Thread 9220] (Msg 1/1) BIP1996I: Atendendo na URL de HTTP '/group_request1'. 
+2024-06-03 17:19:40.673052Z: [Thread 9220] (Msg 1/1) BIP2269I: Recurso implementado 'br.com.group.request01' (uuid='br.com.group.request01',tipo='MessageFlow') iniciado com êxito. 
+2024-06-03 17:19:40.673164Z: [Thread 9220] (Msg 1/1) BIP9332I: Application 'Group_Node' foi changed com êxito. 
+2024-06-03 17:19:40.673260Z: [Thread 9220] (Msg 1/1) BIP9326I: A origem 'Group_Nodeproject.generated.bar' foi implementada com êxito. 
+2024-06-03 17:19:40.673764Z: [Thread 9220] (Msg 1/1) BIP2154I: O servidor de integração foi concluído com a Mensagem de configuração. 

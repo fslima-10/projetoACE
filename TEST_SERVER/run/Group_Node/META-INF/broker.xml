@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Group_Nodeproject.generated.bar" deployTimestamp="2024-06-03 17:19:34">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="br.com.group.Group_Scatter" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Group_Nodeproject.generated.bar" deployTimestamp="2024-06-03 17:19:34">
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#Group Scatter.GroupName" override="group_study">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#Group Scatter.GroupTimeout" override="5.0">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.AddRequestToGroup" override="yes">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.GroupRequestFolderName" override="request">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.URLSpecifier" override="http://localhost:7800/aggregate1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.acceptCompressedResponses">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.asyncResponseCorrelator" override="request01">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.protocol">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request.timeoutForServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.AddRequestToGroup" override="yes">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.GroupRequestFolderName" override="request">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.URLSpecifier" override="http://localhost:7800/aggregate2">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.acceptCompressedResponses">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.allowedCiphers">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.asyncResponseCorrelator" override="request02">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.enableCRLCheck">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.hostnameChecking">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.httpProxyLocation">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.keyAlias">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.protocol">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.requestCompressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Async Request1.timeoutForServer">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Input.URLSpecifier" override="/group">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Scatter#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="br.com.group.Group_Gather" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Group_Nodeproject.generated.bar" deployTimestamp="2024-06-03 17:19:34">
+    <ConfigurableProperty uri="br.com.group.Group_Gather#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#Group Complete.GroupName" override="group_study">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#Group Gather.GroupName" override="group_study">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#Group Gather.UnknownMessageTimeout" override="5.0">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#HTTP Async Response.asyncRequestCorrelator" override="request01">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#HTTP Async Response.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#HTTP Async Response1.asyncRequestCorrelator" override="request02">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#HTTP Async Response1.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.Group_Gather#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="br.com.group.request01" deployBarfile="C:\Broker\ESTUDO-ACE\WS_ESTUDO_ACE\GeneratedBarFiles\Group_Nodeproject.generated.bar" deployTimestamp="2024-06-03 17:19:34">
+    <ConfigurableProperty uri="br.com.group.request01#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#HTTP Input.URLSpecifier" override="/group_request1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="br.com.group.request01#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

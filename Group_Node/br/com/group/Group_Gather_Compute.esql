@@ -1,0 +1,35 @@
+BROKER SCHEMA br.com.group
+
+
+CREATE COMPUTE MODULE Group_Gather_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		call CopyMessageHeaders();
+		DECLARE I INTEGER 1;
+		DECLARE grupoResponse REFERENCE to InputRoot.ComIbmGroupCompleteNode.Group.Replies.request[1];
+		
+		WHILE (LASTMOVE(grupoResponse)) DO
+			
+			set OutputRoot.JSON.Data.Item[I] = grupoResponse.Reply.Root.JSON.Data;
+			
+			set I = I+1;
+		move grupoResponse NEXTSIBLING;	
+		END WHILE;
+		 
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;
